@@ -1,33 +1,35 @@
-# Security & Trust — HyperNatt & Remora Engine
+# Security & Trust — HyperNatt Super App
 
-Trust in decentralized finance and automated trading should never be taken on faith. This document specifies the non-custodial invariants, cryptographic anchors, and security guarantees of the HyperNatt platform.
+Trust in decentralized finance must be earned through verifiable cryptography, non-custodial code, and immutable consensus rules. This document specifies the security guarantees and non-custodial model of the HyperNatt platform.
 
-> **Principle:** Verify, do not trust. Every claim on HyperNatt is verifiable on-chain on Hyperliquid L1 or anchored via immutable SHA-256 hashes in this repository.
+- **Genesis Date**: November 4, 2025 (*Né le 4 novembre 2025*)
+- **Vault Contract (Hyperliquid L1)**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 
 ---
 
 ## 1. Official Channels & Anti-Impersonation
 
-HyperNatt is a verified sovereign project. Scammers and impersonators may launch fake tokens, fraudulent social accounts, or spoof websites. Verify any presence against this official list:
+Always verify the legitimacy of any domain or contract:
 
-- **Official Website**: [https://hypernatt.com](https://hypernatt.com)
-- **Live Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
-- **Public Audit Repository**: [https://github.com/hypernatt/hypernatt](https://github.com/hypernatt/hypernatt)
-- **MCP Terminal Repository**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
+- **Super App Platform**: [https://hypernatt.com](https://hypernatt.com)
+- **App Dashboard**: [https://hypernatt.com/app](https://hypernatt.com/app)
+- **Documentation**: [https://hypernatt.com/docs](https://hypernatt.com/docs)
+- **Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
+- **Main Public Repo**: [https://github.com/hypernatt/hypernatt](https://github.com/hypernatt/hypernatt)
+- **MCP Terminal Protocol Repo**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
+- **Cryptographic Audit Ledger**: [https://github.com/hypernatt/hypernatt-audit-public](https://github.com/hypernatt/hypernatt-audit-public)
 - **Official Telegram Bot**: [https://t.me/hypernatt_bot](https://t.me/hypernatt_bot)
-- **Hyperliquid L1 Vault Address**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
-- **Official Contact**: [contact@hypernatt.com](mailto:contact@hypernatt.com)
 
-**What does NOT exist:**
-- HyperNatt has **no public token sale, no ICO, no presale, and no airdrop**.
-- HyperNatt has **no official X/Twitter account**. Any account claiming to run a public sale or token contract on Ethereum, Solana, or Base using our name is an impersonator.
+**Important Notice:**
+- HyperNatt has **no public token sale, no ICO, and no token contract on Ethereum or Solana**.
+- Beware of phishing attempts and spoof domains.
 
 ---
 
 ## 2. Non-Custodial Architecture & Fund Safety
 
-### Can HyperNatt or the Remora bot withdraw or steal user funds?
-**Strictly NO.** This guarantee is enforced mathematically by the Hyperliquid Layer 1 consensus protocol:
+### Can HyperNatt withdraw or steal user funds?
+**Strictly NO.** This protection is mathematically enforced by the Hyperliquid Layer 1 consensus protocol:
 
 1. **Zero Withdrawal Permissions**: The automated agent wallet (`0x...`) is granted **only trading permissions** on the vault. The Hyperliquid L1 state machine mathematically prohibits agent keys from initiating withdrawals, asset transfers, or destination re-routing.
 2. **Sovereign Depositor Redemptions**: Depositors hold 100% custody of their vault shares. At any time, a depositor can trigger a direct withdrawal back to their own wallet via the Hyperliquid L1 interface.
@@ -35,44 +37,17 @@ HyperNatt is a verified sovereign project. Scammers and impersonators may launch
 
 ---
 
-## 3. Surface & Disclosure Model
+## 3. Proprietary Execution & Closed-Source Rationale
 
-To protect proprietary research without compromising scientific honesty:
-
-| Domain | Visibility | Rationale |
-|---|---|---|
-| **Proof of Process & Audits** | **Public** | Verifiable mathematical research, historical benchmark matrices, failure post-mortems, and SHA-256 manifests. |
-| **Vault Track Record** | **Public On-Chain** | Every fill, liquidation distance, margin ratio, and PnL is publicly readable on Hyperliquid L1. |
-| **Live Telemetry (v2dry)** | **Public** | Real-time market state, liquidation radar, and intrabar telemetry served live on `hypernatt.com/v2dry/`. |
-| **MCP Terminal Protocol** | **Public** | Open tools for autonomous agents to read market structure terrain. |
-| **Execution Engine Source Code** | **Private** | Proprietary order-routing algorithms, sub-second execution mechanisms, and private vault infrastructure remain in the private monorepo to prevent front-running and edge degradation by predatory Market Makers. |
+- **Why the Remora Engine is Closed-Source**: The algorithmic execution models, neural networks, and sub-second order-routing daemons are proprietary intellectual property. Exposing execution algorithms publicly would subject depositor orders to predatory MEV, toxic arbitrage, and front-running.
+- **Proof of Process**: To provide institutional-grade transparency without degrading alpha, HyperNatt anchors historical milestones and telemetry to verifiable SHA-256 cryptographic digests on [hypernatt.com/audit](https://hypernatt.com/audit).
 
 ---
 
-## 4. Cryptographic Proof Verification
-
-Every claim published on the [Proof of Process](https://hypernatt.com/audit) page is anchored to a public note in `notes/` via an immutable SHA-256 hash.
-
-Anyone can independently verify that the notes have not been altered ex-post:
-
-```bash
-# Clone this repository
-git clone https://github.com/hypernatt/hypernatt.git
-cd hypernatt
-
-# Run the independent cryptographic audit
-node scripts/verify_ledger.mjs
-```
-
-A successful output confirms that 100% of claims match the published hashes with 0 discrepancies.
-
----
-
-## 5. Vulnerability Reporting
+## 4. Vulnerability Reporting
 
 If you discover a security vulnerability affecting HyperNatt smart contracts, web infrastructure, or telemetry feeds, please report it responsibly:
 
 - **Security Email**: [contact@hypernatt.com](mailto:contact@hypernatt.com)
 - **PGP Key**: Available upon request.
-- **Scope**: Smart contract interactions, API endpoints, TLS/DNS configurations.
 - **Policy**: We acknowledge receipts within 24 hours and do not pursue legal action against security researchers acting in good faith.

@@ -1,42 +1,40 @@
-# Architecture & Non-Custodial Security Model
+# System Architecture — HyperNatt Super App
 
-HyperNatt is an autonomous, non-custodial quantitative execution platform built on Hyperliquid Layer 1. This document details the architectural separation between user custody, verifiable research, and execution boundaries.
+HyperNatt is a modular, high-availability decentralized finance platform uniting multi-chain connectivity, automated L1 vault execution, and agent-to-agent protocols.
 
 ---
 
-## 1. System Topology
+## 1. High-Level Architecture
 
 ```mermaid
 graph TD
-    User["👤 Depositor (Self-Custodial Wallet)"]
-    HL_Vault["🔒 Hyperliquid L1 Vault Contract (0x04e2eb...)"]
-    Agent["🤖 Remora Execution Agent (0x...)"]
-    L2_Stream["📡 L2 Native WebSocket Recorder (24/7 VPS)"]
-    Audit_Portal["🌐 Public Proof of Process (hypernatt.com/audit)"]
+    User["👤 Depositor / User"]
+    Frontend["💻 Next.js 14 PWA (Web & Mobile)"]
+    LiFi["🔄 NattSwap (Li.Fi DEX Aggregator)"]
+    NattChat["🤖 NattChat AI Concierge"]
+    NattSquare["🌐 NattSquare M2M (x402 on Base)"]
+    NattShield["🛡️ NattShield Fiscal Engine"]
+    HL_Vault["🔒 Hyperliquid L1 Vault (0x04e2eb...)"]
+    Remora["⚡ Remora Engine (Private Execution Daemon)"]
+    MCP["🔌 HyperNatt Terminal (MCP Server)"]
 
-    User -->|Deposit / Direct Withdraw| HL_Vault
-    Agent -->|Signed Trade Orders Only (Zero Withdraw Rights)| HL_Vault
-    L2_Stream -->|Continuous Multi-Stream Capture| Agent
-    Audit_Portal -->|Cryptographic SHA-256 Hashes| User
+    User -->|Connect / Trade / Swap| Frontend
+    Frontend --> LiFi
+    Frontend --> NattChat
+    Frontend --> NattSquare
+    Frontend --> NattShield
+    Frontend -->|Non-Custodial Deposit / Withdraw| HL_Vault
+    Remora -->|Signed Orders Only (Zero Withdraw Rights)| HL_Vault
+    MCP -->|Forced-Order Maps| User
 ```
 
 ---
 
-## 2. The Non-Custodial Guarantee (Hyperliquid L1)
+## 2. Technology Stack
 
-The most critical invariant of HyperNatt is that **user capital is never custodial**:
-
-- **Contract Address**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
-- **Role Separation**:
-  - **Depositor**: Holds 100% ownership of vault shares. At any time, a depositor can trigger a redemption directly back to their self-custodial wallet through the native Hyperliquid interface.
-  - **Leader / Agent**: Holds **strictly order-routing rights**. The Hyperliquid L1 consensus rules mathematically prevent the leader key from initiating withdrawals or transferring funds to arbitrary external addresses.
-- **Mempool Immunity**: Hyperliquid utilizes a Tendermint-based Byzantine Fault Tolerant (BFT) consensus without a public mempool, mitigating front-running and MEV sandwich attacks.
-
----
-
-## 3. Technology Stack
-
-- **L1 Infrastructure**: Hyperliquid Layer 1 (Rust consensus, native orderbook).
-- **Core Orchestration**: Python 3.11+, asynchronous WebSockets, multi-stream sub-second data capture.
-- **Frontend & Public Interface**: Next.js 14, TypeScript, Tailwind CSS, high-security HTTP headers (HSTS Preload, TLS 1.3).
-- **Agent Interoperability**: MCP (Model Context Protocol), dual-rail payment settlement via x402 on Base and Solana mainnets.
+- **Frontend & PWA**: Next.js 14, React 18, TypeScript, Tailwind CSS, wagmi / viem, Lucide icons.
+- **Smart Contracts & Execution**: Hyperliquid Layer 1 (Rust consensus, native orderbook), Arbitrum, Base Mainnet.
+- **Cross-Chain Bridging**: Li.Fi API & Smart Routing.
+- **Machine-to-Machine (M2M)**: HTTP 402 micro-payment protocol, NDAT ERC-20 on Base.
+- **AI Infrastructure**: Multilingual streaming LLM orchestration, voice synthesis and speech recognition.
+- **Terminal & Developer Tools**: Model Context Protocol (MCP) server, stdio / SSE transport.

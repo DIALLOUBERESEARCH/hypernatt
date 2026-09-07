@@ -1,23 +1,22 @@
 {
-  "name": "@hypernatt/audit-public",
-  "version": "1.0.0",
-  "description": "Official public verification and cryptographic audit repository for HyperNatt and the Remora Engine",
+  "name": "@hypernatt/platform",
+  "version": "1.2.0",
+  "description": "HyperNatt — The sovereign, non-custodial decentralized finance Super App on Hyperliquid L1",
   "type": "module",
-  "scripts": {
-    "test": "node scripts/verify_ledger.mjs",
-    "verify": "node scripts/verify_ledger.mjs"
-  },
+  "homepage": "https://hypernatt.com",
   "keywords": [
     "hypernatt",
     "hyperliquid",
-    "remora-engine",
-    "proof-of-process",
+    "super-app",
     "defi",
     "non-custodial",
-    "quant",
-    "audit",
-    "sha256"
+    "vault",
+    "nattswap",
+    "mcp-terminal",
+    "nattchat",
+    "nattshield",
+    "nattsquare"
   ],
-  "author": "DIALLOUBE-RESEARCH",
+  "author": "Hamet Diallo (DIALLOUBE RESEARCH)",
   "license": "MIT"
 }

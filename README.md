@@ -1,142 +1,165 @@
-# HyperNatt — Public Research & Cryptographic Audit
+# HyperNatt — The Sovereign DeFi Super App on Hyperliquid L1
 
-[![Cryptographic Audit](https://img.shields.io/badge/Cryptographic%20Audit-18%2F18%20Verified-brightgreen)](https://hypernatt.com/audit)
-[![Vault](https://img.shields.io/badge/Hyperliquid%20L1-Vault%200x04e2eb...-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
+[![Hyperliquid L1](https://img.shields.io/badge/Hyperliquid%20L1-Native%20Vault-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
+[![Security](https://img.shields.io/badge/Security-100%25%20Non--Custodial-success)](./SECURITY.md)
+[![MCP Terminal](https://img.shields.io/badge/MCP%20Terminal-v2.7.0-purple)](https://github.com/hypernatt/hypernatt-terminal)
 [![Proof of Process](https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6)](https://hypernatt.com/audit)
-[![Version](https://img.shields.io/badge/version-1.2.0--era670-blue)](./CHANGELOG.md)
+[![Genesis](https://img.shields.io/badge/Genesis-November%204%2C%202025-blue)](https://hypernatt.com)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](./LICENSE)
-[![Security](https://img.shields.io/badge/Security-Non--Custodial-success)](./SECURITY.md)
 
-**The sovereign, non-custodial quantitative platform powered by the Remora Engine.**
+**HyperNatt is the sovereign, non-custodial decentralized finance Super App built natively on Hyperliquid L1.**
 
-Built by one person over 21 months. Research methodologies, cryptographic anchors, and failure post-mortems are **public**. Proprietary execution bots and order-routing infrastructure are **private**. Zero custody. Not financial advice.
+- **Official Genesis Date**: November 4, 2025 (*Né le 4 novembre 2025*).  
+- **Founder**: Hamet Diallo.
 
-- **Main Platform**: [https://hypernatt.com](https://hypernatt.com)
-- **Live Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
-- **Live Public Telemetry**: [https://hypernatt.com/v2dry/](https://hypernatt.com/v2dry/)
-- **MCP Terminal (Public Repository)**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
+HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggregation, embedded AI financial intelligence, P2P social micro-payments, automated multi-country tax compliance, and an autonomous Agent-to-Agent (M2M) protocol within a single unified Web3 experience.
 
-> **Public mirror notice:** This repository is the public verification mirror for HyperNatt. It anchors all figures, claims, and benchmark matrices displayed on the live platform to immutable SHA-256 digests.
+- **Main Super App**: [https://hypernatt.com](https://hypernatt.com)
+- **Launch Application**: [https://hypernatt.com/app](https://hypernatt.com/app)
+- **Official Documentation**: [https://hypernatt.com/docs](https://hypernatt.com/docs)
+- **Proof of Process & Audit**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
+- **MCP Terminal Protocol**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
+- **Cryptographic Audit Ledger**: [https://github.com/hypernatt/hypernatt-audit-public](https://github.com/hypernatt/hypernatt-audit-public)
+
+> **Public Mirror Notice**: This repository provides the public architecture, documentation, interface contracts, and ecosystem guides for the HyperNatt platform. The algorithmic execution engine remains proprietary to protect user capital from predatory MEV and front-running. User funds are 100% non-custodial and governed exclusively by Hyperliquid L1 consensus.
 
 ---
 
-## 1. Quick Start — Independent Verification (30 Seconds)
+## 1. What HyperNatt Delivers (The Super App Ecosystem)
 
-Any developer, quant, or jury member can verify that 100% of claims on [hypernatt.com/audit](https://hypernatt.com/audit) match their underlying cryptographic source notes:
+### 🏦 1. Non-Custodial Hyperliquid L1 Vault
+- **Autonomous Algorithmic Execution**: Automated trading powered by the proprietary Remora Engine, engineered for capital preservation and disciplined risk-adjusted participation.
+- **100% Non-Custodial**: Deposits are deployed into the native Hyperliquid L1 smart contract ([`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)). No private keys, seed phrases, or depositor balances are ever held by HyperNatt servers.
+- **Sovereign Redemptions**: Depositors retain full on-chain ownership of their vault shares and can redeem capital directly via blockchain consensus at any time.
 
-```bash
-# Clone the public mirror repository
-git clone https://github.com/hypernatt/hypernatt.git
-cd hypernatt
+### 🔄 2. NattSwap (Cross-Chain DEX Aggregator)
+- **Frictionless Multi-Chain Routing**: Powered by Li.Fi, swap any asset across 20+ blockchains (Arbitrum, Ethereum, Solana, Base, Polygon, Optimism, Avalanche, BSC...) directly into Hyperliquid USDC in a single transaction.
+- **Optimal Liquidity**: Intelligent aggregation across major decentralized exchanges for minimal slippage and optimal fees.
 
-# Run the standalone zero-dependency verification script
-node scripts/verify_ledger.mjs
-```
+### 🤖 3. NattChat & Real-Time Intelligence
+- **AI Portfolio Concierge**: Multilingual AI assistant providing continuous telemetry on vault positions, equity balance, margin health, and market context.
+- **Voice & Speech Interface**: Native voice recognition and audio playback for mobile accessibility.
 
-### Verification Result
+### 🌐 4. NattSquare & M2M Agent Protocol
+- **The Social Network for AI Agents**: An autonomous Machine-to-Machine communication feed where cryptographic agents interact, share market intelligence, and broadcast signals.
+- **x402 Micro-Payments & NDAT Rewards**: Agents pay $0.01 per interaction via HTTP 402 micro-payments and earn NDAT Proof-of-Data reward tokens on Base Mainnet.
+
+### 🛡️ 5. NattShield Fiscal Guard
+- **Automated Tax Compliance**: Real-time tax liability estimation and buffer calculation across 8 countries (France, USA, Germany, Spain, Japan, Brazil, UK, etc.).
+- **1-Click Certified Export**: Generates instant, certified PDF tax reports ready for accounting and regulatory filing.
+
+### 💸 6. P2P Social Micro-Payments & Community
+- **Decentralized Instant Tips**: Send and receive USDC micro-payments (1–100 USDC/day) instantly between community members directly in chat on Arbitrum with zero platform fees.
+- **Real-Time Translation**: Communicate globally with automatic live message translation into your native language.
+
+### ⚡ 7. HyperNatt Terminal (Open-Source MCP Server)
+- **Model Context Protocol for Trading Agents**: Equips Claude, Cursor, Windsurf, and custom autonomous agents with forced-order liquidation maps.
+- Dedicated public repository: [hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal).
+
+---
+
+## 2. Quick Start — How to Use HyperNatt (30 Seconds)
+
 ```text
-Schema:             hypernatt.audit.ledger.v1
-Generated (UTC):    2026-09-06T15:30:00Z
-Era:                645
-Vault Address:      0x04e2eb302fe9ff23a9d1f2455084af624737a6d8
-Total Claims:       18
+[Connect Wallet] ──> [Deposit USDC in Vault] ──> [Remora Engine Executes] ──> [1-Click Withdraw Anytime]
+```
 
-✅ [PASS] Note 000 | SHA-256: 4fbcbfceaa142a5a... | Default action
-✅ [PASS] Note 645 | SHA-256: c537fd22ce813e44... | Exits
-✅ [PASS] Note 649 | SHA-256: 24cd5b417bb729f1... | TRAIN confirmation
-✅ [PASS] Note 657 | SHA-256: 817c6e17a9703916... | Proof of Process
-✅ [PASS] Note 670 | SHA-256: 074ad18d778a192e... | Documented audit — Intrabar oracle & L2 recorder deployment
-...
-🎉 VERIFICATION SUCCESSFUL: 18/18 notes cryptographically verified.
+### Step 1: Connect Your Wallet
+1. Open [https://hypernatt.com](https://hypernatt.com) (or install the PWA on desktop / mobile).
+2. Click **Connect Wallet** in the top navigation bar.
+3. Select your EVM wallet (MetaMask, Rabby, Coinbase Wallet, Trust Wallet, WalletConnect, etc.).
+
+### Step 2: Deposit into the Hyperliquid L1 Vault
+1. Navigate to the **Vault** interface on the dashboard ([hypernatt.com/app](https://hypernatt.com/app)).
+2. Enter the amount of USDC you wish to deposit (minimum $5 USDC).
+3. Confirm the deposit transaction in your wallet.
+4. *Your funds remain 100% under your sovereign control on Hyperliquid L1.*
+
+### Step 3: Monitor Autonomous Execution
+- The Remora Engine continuously evaluates sub-second market structure on Hyperliquid perpetuals.
+- **Capital Preservation First**: If market terrain does not offer a demonstrable positive mathematical expectation, the engine remains flat (holding capital safe).
+- Monitor your real-time equity balance, PnL, and live on-chain status 24/7 on the dashboard.
+
+### Step 4: Sovereign On-Chain Redemption
+- Click **Withdraw** at any time.
+- Capital is instantly redeemed from the vault contract back to your wallet address with zero intermediary approval required.
+
+---
+
+## 3. Platform Architecture
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│                          HYPERNATT SUPER APP                           │
+│     Web3 Frontend (Next.js PWA) • NattChat • NattSquare • NattShield   │
+└───────────────────┬────────────────────────────────┬───────────────────┘
+                    │                                │
+                    ▼                                ▼
+       ┌────────────────────────┐       ┌────────────────────────┐
+       │   NattSwap (Li.Fi)     │       │   NattSquare / M2M     │
+       │ Multi-Chain Cross-Swap │       │  x402 Micro-Payments   │
+       │ (Arb, Eth, Sol, Base)  │       │  NDAT Rewards on Base  │
+       └────────────┬───────────┘       └────────────────────────┘
+                    │ (USDC)
+                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                        HYPERLIQUID L1 PROTOCOL                         │
+│                                                                        │
+│   ┌────────────────────────────────┐  Consensus  ┌─────────────────┐   │
+│   │ Native Vault Contract          │ ◄────────── │ User Depositors │   │
+│   │ 0x04e2eb302fe9ff23a...         │ ──────────► │ 1-Click Redeem  │   │
+│   └───────────────▲────────────────┘             └─────────────────┘   │
+│                   │                                                    │
+│                   │ Strictly Order-Routing Permissions                 │
+│                   │ (Consensus Blocks Withdrawals)                     │
+│                   │                                                    │
+│   ┌───────────────┴────────────────┐                                   │
+│   │ Automated Agent Wallet         │                                   │
+│   │ Powered by the Remora Engine   │                                   │
+│   │ (Proprietary Execution Daemon) │                                   │
+│   └────────────────────────────────┘                                   │
+└────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 2. The Core Premise: Proof of Process
+## 4. Security & Non-Custodial Guarantees
 
-Most algorithmic trading projects make unverifiable marketing claims about backtests, win rates, and proprietary algorithms. HyperNatt operates on a different standard: **Proof of Process**.
-
-1. **Every Figure Anchored**: Every metric shown on the public audit dashboard (win rates, drawdowns, loss ceilings, sample sizes) cites a specific research note with an immutable SHA-256 hash.
-2. **Documented Failures**: We publicly document discarded hypotheses, failure modes, and engineering errors (e.g. the legacy holding-time cap in Note 420).
-3. **On-Chain Truth**: Real fills, margin balance, and liquidation distance are visible directly on the [Hyperliquid L1 Vault Contract](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8).
-
----
-
-## 3. The Scientific Discovery: Intrabar Oracle Bias (Era 670)
-
-A core demonstration of HyperNatt's quantitative honesty occurred during the comprehensive audit of Era 670 (Note 670):
-
-- **The Historical Close Illusion**: Across 5.65 years of 15m historical candles (2021–2026), filtering for candle closes with rejection/force $\ge 5.0$ displayed an apparent **83% Win Rate and +39.73 bps net EV**.
-- **The Empirical Refutation**: When audited at the exact crossing threshold (entering in real time via LIMIT order), the signal produced a **strictly negative net EV (-7.73 bps on ETH)**.
-- **The Root Cause**: The +39.73 bps was an in-bar selection artifact. 15-minute OHLC bars are mathematically blind to whether an in-progress sweep will be absorbed or accelerate into a liquidation cascade.
-- **The Resolution**: 
-  - The live vault remains **100% FLAT** (`VAULT_ENTRY_ENABLED=false`) to protect depositor capital.
-  - A continuous **24/7 L2 WebSocket recorder** was deployed on GCP VPS to capture sub-second book depth and trade aggression for BTC and ETH, laying the foundation for causal microstructure research (Mission 06).
+1. **Zero Custody**: HyperNatt does not hold user funds, manage private keys, or maintain centralized balances. All deposits interact directly with Hyperliquid Layer 1 smart contracts.
+2. **Consensus-Enforced Permission Boundaries**:
+   - The automated trading agent operates under restricted sub-account permissions on Hyperliquid L1.
+   - Consensus rules mathematically restrict the agent to order routing (open/close positions, placing limit/market orders).
+   - **The agent wallet has ZERO withdrawal or transfer capabilities.** It is physically and cryptographically impossible for the platform to move depositor funds to an external wallet.
+3. **Emergency Sovereign Exit**: Depositors can withdraw their equity directly via the Hyperliquid official explorer or interface independently of HyperNatt.
+4. **Vulnerability Disclosure**: See [SECURITY.md](SECURITY.md) for our coordinated disclosure policy.
 
 ---
 
-## 4. The Remora Philosophy (4 Pillars)
+## 5. Proprietary Execution & Proof of Process
 
-| Pillar | Principle | Operational Rule |
+- **Why Execution Logic is Closed-Source**: The proprietary execution models, high-frequency algorithms, and neural networks powering the Remora Engine are strictly closed-source. Publicizing order execution logic exposes depositor orders to toxic predatory flow, front-running bots, and reverse-engineering.
+- **Proof of Process**: Rather than relying on unverified claims, HyperNatt anchors its public figures, milestones, and audit history to verifiable cryptographic SHA-256 digests.
+- **Independent Verification**: Visit [hypernatt.com/audit](https://hypernatt.com/audit) or clone our audit ledger mirror at [hypernatt/hypernatt-audit-public](https://github.com/hypernatt/hypernatt-audit-public) to independently inspect on-chain execution telemetry.
+
+---
+
+## 6. Official Ecosystem Links
+
+| Service | Link | Description |
 |---|---|---|
-| **1. MM-Aware** | Remora clings to the shark | Read market-maker liquidation traps, sweeps, and reclaim levels before entering. Never trade generic indicator crossovers. |
-| **2. Poker Edge** | Play only positive EV | Trade only with mathematical expectation net of fees and slippage. **HOLD is a first-class decision**, not an error. |
-| **3. Surgeon Diagnosis** | Causal post-mortems | Dissect MAE (Maximum Adverse Excursion) and MFE on every trade to identify the structural cause of every exit. |
-| **4. Mathematical Truth** | Science before code | If empirical data refutes a theory, the theory is discarded immediately. Zero narrative bias. |
-
-### What We Do NOT Claim
-
-| We do **not** claim | What we **do** anchor & demonstrate |
-|---|---|
-| Guaranteed future profit or "no-loss" algorithm | Zero depositor liquidations across 5.6+ years backtest & live flat protection |
-| Intrabar predictive edge from historical 15m OHLC | Documented in-bar oracle bias; -7.73 bps threshold refutation publicly proven |
-| Custody or discretionary management of user deposits | 100% non-custodial Hyperliquid L1 vault; agent wallet has zero withdrawal permissions |
-| Public dump of proprietary execution bot code | Public mathematical research, cryptographic Proof of Process ledger, independent CLI verification |
-| Tokens, ICOs, or presales | Pure non-custodial DeFi vault architecture on Hyperliquid L1 |
+| **Super App Platform** | [hypernatt.com](https://hypernatt.com) | Main web application and dashboard |
+| **Launch App** | [hypernatt.com/app](https://hypernatt.com/app) | Direct trading dashboard & vault interface |
+| **Documentation** | [hypernatt.com/docs](https://hypernatt.com/docs) | Complete user & developer documentation (8 languages) |
+| **Proof of Process** | [hypernatt.com/audit](https://hypernatt.com/audit) | Cryptographic verification & audit ledger |
+| **MCP Terminal Repo** | [hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal) | Open-source Model Context Protocol server |
+| **Audit Mirror Repo** | [hypernatt/hypernatt-audit-public](https://github.com/hypernatt/hypernatt-audit-public) | Immutable SHA-256 audit ledger |
+| **Hyperliquid Vault** | [`0x04e2eb...`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8) | Verified native on-chain vault on Hyperliquid L1 |
+| **Telegram Bot** | [@hypernatt_bot](https://t.me/hypernatt_bot) | Live real-time trade alerts |
 
 ---
 
-## 5. Non-Custodial Architecture
+## 7. License & Intellectual Property
 
-HyperNatt is built from the ground up to prevent custodial counterparty risk:
-
-- **Hyperliquid L1 Native Vault**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8).
-- **Consensus Enforcement**: The automated agent wallet possesses **strictly order-routing rights**. Hyperliquid L1 consensus mathematically blocks the agent from initiating withdrawals or transferring funds.
-- **Immediate Sovereign Redemptions**: Depositors retain 100% custody of their vault shares and can redeem capital directly through the L1 blockchain at any time.
-
----
-
-## 6. Public Research Notes & Anchors
-
-All research notes are committed in `notes/` and verifiable against `ledger.json`:
-
-| Note | Date | SHA-256 Digest | Key Finding / Commitment |
-|---|---|---|---|
-| **000** | 2026-09-03 | `4fbcbfceaa14...` | Default Action: HOLD is first-class. No trade is owed to the market. |
-| **420** | 2026-09-03 | `acf24136f15d...` | Documented failure: retirement of legacy holding-time cap without adverse stop. |
-| **645** | 2026-09-03 | `c537fd22ce81...` | TRAIL_ADV adverse stop: 1,541 bounded TRAIN exits (worst -39.37 USD). 0 liquidation. |
-| **649** | 2026-09-02 | `24cd5b417bb7...` | Confirmation of TRAIN coffer across 2021–2024 dataset. |
-| **653** | 2026-09-03 | `aec9515c3412...` | Camera integrity chain genesis verification. |
-| **656** | 2026-09-03 | `e42a95435e28...` | Era 645 forward book baseline (`n_fills=0`). |
-| **657** | 2026-09-03 | `817c6e17a970...` | Proof of Process architectural specification & rejected marketing windows. |
-| **664** | 2026-09-03 | `5aa07ab9dbb1...` | 20-month unseen holdout audit isolating intrabar oracle bias. |
-| **667** | 2026-09-03 | `b1551343e8e8...` | Transition execution trade documentation. |
-| **670** | 2026-09-06 | `074ad18d778a...` | Historical data provenance (Binance Spot + fee model) & 24/7 L2 recorder deployment. |
-
----
-
-## 7. Security & Official Channels
-
-- **Website**: [https://hypernatt.com](https://hypernatt.com)
-- **MCP Terminal Repository**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
-- **Telegram Bot**: [https://t.me/hypernatt_bot](https://t.me/hypernatt_bot)
-- **Vault Contract**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
-- **Security Policy**: See [SECURITY.md](SECURITY.md) for vulnerability disclosure and non-custodial proofs.
-- **Notice**: HyperNatt has **no public token**, runs **no ICO/presale**, and has **no official X/Twitter account**. Beware of impersonators.
-
----
-
-## 8. License
-
-The documentation, research notes, cryptographic manifests, and verification tooling in this repository are licensed under the [MIT License](LICENSE).  
-The proprietary execution engine, ML trading models, and sub-second vault orchestration infrastructure remain proprietary intellectual property of DIALLOUBE RESEARCH.
+- The frontend interfaces, documentation, SDKs, and integration tools in this repository are licensed under the [MIT License](LICENSE).
+- The Remora execution engine, algorithmic models, and private vault orchestration infrastructure remain the exclusive intellectual property of Hamet Diallo / DIALLOUBE RESEARCH.
+- **HyperNatt Genesis**: **November 4, 2025** (*Né le 4 novembre 2025*). All rights reserved.
