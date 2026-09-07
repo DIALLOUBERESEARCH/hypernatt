@@ -1,6 +1,6 @@
 {
   "schema": "hypernatt.audit.public.manifest.v1",
-  "repo": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public",
+  "repo": "https://github.com/hypernatt/hypernatt-audit-public",
   "generated_utc": "2026-09-03T11:00:00Z",
   "files": [
     {"path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md", "sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"},
