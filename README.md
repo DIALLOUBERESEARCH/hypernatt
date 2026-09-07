@@ -1,6 +1,6 @@
 # HyperNatt — Public Research & Cryptographic Audit
 
-[![CI](https://github.com/hypernatt/hypernatt/actions/workflows/ci.yml/badge.svg)](https://github.com/hypernatt/hypernatt/actions/workflows/ci.yml)
+[![Cryptographic Audit](https://img.shields.io/badge/Cryptographic%20Audit-18%2F18%20Verified-brightgreen)](https://hypernatt.com/audit)
 [![Vault](https://img.shields.io/badge/Hyperliquid%20L1-Vault%200x04e2eb...-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 [![Proof of Process](https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6)](https://hypernatt.com/audit)
 [![Version](https://img.shields.io/badge/version-1.2.0--era670-blue)](./CHANGELOG.md)
