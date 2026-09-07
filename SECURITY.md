@@ -44,25 +44,11 @@ Always verify the legitimacy of any domain or contract:
 
 ---
 
-## 4. Domain Integrity & Threat Intelligence Audits
-
-To protect depositors, developers, and autonomous AI agents against malicious impersonation, phishing attacks, and fraudulent infrastructure:
-
-- **VirusTotal Multi-Scanner Audit**: Continuous automated surveillance across **92 independent antivirus, URL scanner, and security vendors** (Google Safe Browsing, Kaspersky, BitDefender, Sophos, Cloudflare, Fortinet, Microsoft Defender, etc.).
-  - **Detection Score**: **0 / 92 engines (100% Clean / PASS)**.
-  - **Signatures**: Zero malicious flags, zero malware signatures, zero phishing heuristics.
-  - **Public Scan Report**: [https://www.virustotal.com/gui/domain/hypernatt.com](https://www.virustotal.com/gui/domain/hypernatt.com)
-- **SOCRadar Digital Risk & Brand Protection**:
-  - **Surface**: Continuous domain & brand threat intelligence monitoring.
-  - **Status**: **Allowlisted & Verified**.
-  - **Assessment**: Zero malicious impersonation, zero dark web credential exposure, zero phishing infrastructure links.
-
----
-
-## 5. Vulnerability Reporting
+## 4. Vulnerability Reporting
 
 If you discover a security vulnerability affecting HyperNatt smart contracts, web infrastructure, or telemetry feeds, please report it responsibly:
 
 - **Security Email**: [contact@hypernatt.com](mailto:contact@hypernatt.com)
 - **PGP Key**: Available upon request.
 - **Policy**: We acknowledge receipts within 24 hours and do not pursue legal action against security researchers acting in good faith.
+
