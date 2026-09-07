@@ -14,7 +14,7 @@ Built by one person over 21 months. Research methodologies, cryptographic anchor
 - **Main Platform**: [https://hypernatt.com](https://hypernatt.com)
 - **Live Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
 - **Live Public Telemetry**: [https://hypernatt.com/v2dry/](https://hypernatt.com/v2dry/)
-- **MCP Terminal**: [https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
+- **MCP Terminal (Public Repository)**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
 
 > **Public mirror notice:** This repository is the public verification mirror for HyperNatt. It anchors all figures, claims, and benchmark matrices displayed on the live platform to immutable SHA-256 digests.
 
@@ -128,6 +128,7 @@ All research notes are committed in `notes/` and verifiable against `ledger.json
 ## 7. Security & Official Channels
 
 - **Website**: [https://hypernatt.com](https://hypernatt.com)
+- **MCP Terminal Repository**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
 - **Telegram Bot**: [https://t.me/hypernatt_bot](https://t.me/hypernatt_bot)
 - **Vault Contract**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 - **Security Policy**: See [SECURITY.md](SECURITY.md) for vulnerability disclosure and non-custodial proofs.

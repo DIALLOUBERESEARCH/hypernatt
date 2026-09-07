@@ -13,7 +13,7 @@ HyperNatt is a verified sovereign project. Scammers and impersonators may launch
 - **Official Website**: [https://hypernatt.com](https://hypernatt.com)
 - **Live Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
 - **Public Audit Repository**: [https://github.com/hypernatt/hypernatt](https://github.com/hypernatt/hypernatt)
-- **MCP Terminal Repository**: [https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
+- **MCP Terminal Repository**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
 - **Official Telegram Bot**: [https://t.me/hypernatt_bot](https://t.me/hypernatt_bot)
 - **Hyperliquid L1 Vault Address**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 - **Official Contact**: [contact@hypernatt.com](mailto:contact@hypernatt.com)
