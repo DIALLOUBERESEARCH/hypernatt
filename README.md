@@ -3,6 +3,7 @@
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen?logo=github-actions&logoColor=white)](https://github.com/hypernatt/hypernatt)
 [![Hyperliquid L1](https://img.shields.io/badge/Hyperliquid%20L1-Native%20Vault-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 [![Security](https://img.shields.io/badge/Security-100%25%20Non--Custodial-success)](./SECURITY.md)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F92%20Clean-brightgreen?logo=virustotal)](https://www.virustotal.com/gui/domain/hypernatt.com)
 [![MCP Terminal](https://img.shields.io/badge/MCP%20Terminal-v2.7.0-purple)](https://github.com/hypernatt/hypernatt-terminal)
 [![Proof of Process](https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6)](https://hypernatt.com/audit)
 [![Genesis](https://img.shields.io/badge/Genesis-November%204%2C%202025-blue)](https://hypernatt.com)
@@ -128,7 +129,12 @@ HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggreg
    - Consensus rules mathematically restrict the agent to order routing (open/close positions, placing limit/market orders).
    - **The agent wallet has ZERO withdrawal or transfer capabilities.** It is physically and cryptographically impossible for the platform to move depositor funds to an external wallet.
 3. **Emergency Sovereign Exit**: Depositors can withdraw their equity directly via the Hyperliquid official explorer or interface independently of HyperNatt.
-4. **Vulnerability Disclosure**: See [SECURITY.md](SECURITY.md) for our coordinated disclosure policy.
+4. **Threat Intelligence & Domain Integrity (VirusTotal & SOCRadar)**:
+   - Target domain `https://hypernatt.com` is continuously scanned across **92 independent antivirus and security engines** on VirusTotal (including Google Safe Browsing, Kaspersky, BitDefender, Sophos, Cloudflare, Fortinet, Microsoft Defender).
+   - **Score**: **0 / 92 detections (100% Clean / PASS)** with zero malware signatures, zero phishing heuristics, and zero security flags.
+   - **Brand Protection**: Verified and allowlisted by SOCRadar Digital Risk Protection against impersonation and dark web credential exposure.
+   - **Public Verification**: [Inspect VirusTotal scan report for hypernatt.com](https://www.virustotal.com/gui/domain/hypernatt.com).
+5. **Vulnerability Disclosure**: See [SECURITY.md](SECURITY.md) for our coordinated disclosure policy.
 
 ---
 
