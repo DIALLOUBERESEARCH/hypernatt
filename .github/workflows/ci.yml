@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  validate:
-    name: validate-metadata
+  gate:
+    name: integrity-and-security-gate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Validate Package Metadata
-        run: node -e "const pkg = JSON.parse(require('fs').readFileSync('package.json')); console.log('Validated ' + pkg.name + ' v' + pkg.version);"
+      - name: Run Integrity & Security Gate
+        run: npm test

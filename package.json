@@ -4,6 +4,9 @@
   "description": "HyperNatt — The sovereign, non-custodial decentralized finance Super App on Hyperliquid L1",
   "type": "module",
   "homepage": "https://hypernatt.com",
+  "scripts": {
+    "test": "node scripts/verify-repo-integrity.mjs"
+  },
   "keywords": [
     "hypernatt",
     "hyperliquid",
