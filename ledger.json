@@ -1,0 +1,203 @@
+{
+  "schema": "hypernatt.audit.ledger.v1",
+  "generated_utc": "2026-09-06T15:30:00Z",
+  "forward_started_utc": "2026-09-03T16:00:00Z",
+  "era": "645",
+  "public_repo": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public",
+  "public_blob_base": "https://hypernatt.com/audit/",
+  "vault_address": "0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+  "vault_url": "https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+  "entries": [
+    {
+      "id": "s1-hold",
+      "section": "S1",
+      "label": "Default action",
+      "value": "HOLD is first-class. No trade is owed to the market.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "000",
+      "source_path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md",
+      "source_sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"
+    },
+    {
+      "id": "s1-exits",
+      "section": "S1",
+      "label": "Exits",
+      "value": "Current 645 engine: profit targets plus TRAIL_ADV adverse stop (1541 bounded exits in TRAIN, worst -39.37 USD). All losses strictly bounded. Zero liquidation in 5.65 years.",
+      "as_of_utc": "2026-09-03",
+      "caption": "Current deployed engine rules. The legacy holding-time cap without adverse stop is archived in Documented failures (note 420).",
+      "source_note": "645",
+      "source_path": "notes/645_TRAIL_ADV_TRAIN.md",
+      "source_sha256": "c537fd22ce813e440457a20b1b093e7848912c39dcadd32c84a5e9de179ae7a1"
+    },
+    {
+      "id": "s1-exits-649",
+      "section": "S1",
+      "label": "TRAIN confirmation",
+      "value": "Note 649 confirms the 645 TRAIN coffer: 1541 TRAIL_ADV remain, unit losses bounded.",
+      "as_of_utc": "2026-09-02",
+      "source_note": "649",
+      "source_path": "notes/649_TRAIL_ADV_TRAIN_CONFIRM.md",
+      "source_sha256": "24cd5b417bb729f184b55bbf809e0ad498d4ddfa7ea5f33c2bd9c1f3c34a22f1"
+    },
+    {
+      "id": "s1-verify",
+      "section": "S1",
+      "label": "Proof of Process",
+      "value": "This page does not ask for trust. Every number cites a hashed public note or the Hyperliquid vault.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s2-wr-honest",
+      "section": "S2",
+      "label": "Table A — Lab TRAIN Close Signal Audit (2021–2024)",
+      "value": "67.8% (Conditional on Close · Blind threshold entry loses -7.7 bp)",
+      "as_of_utc": "2026-09-02",
+      "caption": "Lab TRAIN n=4782 (note 645). Signal verified conditionally at 15m candle close (+40 bps), but threshold maker entry has negative EV without sub-second L2 depth. Not a live promise.",
+      "source_note": "645",
+      "source_path": "notes/645_TRAIL_ADV_TRAIN.md",
+      "source_sha256": "c537fd22ce813e440457a20b1b093e7848912c39dcadd32c84a5e9de179ae7a1"
+    },
+    {
+      "id": "s2-table-a-holdout",
+      "section": "S2",
+      "label": "Table A — Lab Holdout Threshold Test (Oracle Bias Refuted)",
+      "value": "1758 positions · Intrabar oracle bias identified · Threshold entry -7.7 bp",
+      "as_of_utc": "2026-09-03",
+      "caption": "20 months holdout unseen (note 664). Econometric audit showed entering at boundary threshold without sub-second orderbook depth produces negative net EV after fees.",
+      "source_note": "664",
+      "source_path": "notes/664_HOLDOUT_645.md",
+      "source_sha256": "5aa07ab9dbb109d69a08ecd89f9401e7c1b1c7e547cfafe23dcda948aafb46a8"
+    },
+    {
+      "id": "s2-table-a-total",
+      "section": "S2",
+      "label": "Table A — Historical Audit Synthesis & L2 Capture Active",
+      "value": "6540 positions audited · Zero liquidation · Live vault FLAT (Zero Exposure)",
+      "as_of_utc": "2026-09-03",
+      "caption": "Combined TRAIN and Holdout (6540 events) audited to isolate oracle bias. 24/7 continuous L2 recorder active to build native micro-depth. Zero depositor capital risked.",
+      "source_note": "664",
+      "source_path": "notes/664_HOLDOUT_645.md",
+      "source_sha256": "5aa07ab9dbb109d69a08ecd89f9401e7c1b1c7e547cfafe23dcda948aafb46a8"
+    },
+    {
+      "id": "s2-forward",
+      "section": "S2",
+      "label": "Table B — Forward live book (Era 645)",
+      "value": "n_fills=0",
+      "n_fills": 0,
+      "slip_bp_abs_moy": null,
+      "as_of_utc": "2026-09-03",
+      "caption": "Starts 2026-09-03 upon 645 engine activation. Counts only 645 era fills. Day index is computed from activation date.",
+      "source_note": "656",
+      "source_path": "notes/656_FORWARD_ZERO_FILLS.md",
+      "source_sha256": "e42a95435e282fcd716555a3a2d78523a2b6ee2ea8a5126106ab6965fe2a0015"
+    },
+    {
+      "id": "s2-vault-governance",
+      "section": "S2",
+      "label": "Table B — Live Vault Governance (Capital Preservation)",
+      "value": "Vault entries paused (FLAT). Zero depositor capital at risk.",
+      "as_of_utc": "2026-09-06",
+      "caption": "In strict compliance with Charter Principle 4 (Mathematical Truth), live entries are paused while an autonomous 24/7 continuous L2 recorder builds native microstructure depth. 0.00% liquidation record maintained.",
+      "source_note": "670",
+      "source_path": "notes/670_RESEARCH_PROVENANCE_AND_L2_RECORDER.md",
+      "source_sha256": "074ad18d778a192e6903cfa4817b5cc4f1aa830684c0bf78567069015a05bbdb"
+    },
+    {
+      "id": "s3-inbar-oracle-audit",
+      "section": "S3",
+      "label": "Documented audit — Intrabar oracle & L2 recorder deployment",
+      "value": "5-year lab benchmark audited. Threshold entry without close confirmation requires sub-second L2 depth.",
+      "as_of_utc": "2026-09-06",
+      "caption": "Audit showed breakout rejection has true edge (+40 bps at close), but threshold maker entry gives -7.7 bps without sub-second order-flow. 24/7 continuous L2 recorder deployed on Hyperliquid.",
+      "source_note": "670",
+      "source_path": "notes/670_RESEARCH_PROVENANCE_AND_L2_RECORDER.md",
+      "source_sha256": "074ad18d778a192e6903cfa4817b5cc4f1aa830684c0bf78567069015a05bbdb"
+    },
+    {
+      "id": "s3-transition",
+      "section": "S3",
+      "label": "Documented transition — 2026-09-03 deployment trade",
+      "value": "Pre-activation trade closed at -$12.87 USD (risk envelope respected)",
+      "as_of_utc": "2026-09-03",
+      "caption": "Opened by legacy engine during rollout. Manually closed by operator to allow 645 to start completely flat and synchronized. Well inside lab envelope (-39.37 USD). Excluded from 645 forward book.",
+      "source_note": "667",
+      "source_path": "notes/667_TRANSITION_LEGACY_TRADE.md",
+      "source_sha256": "b1551343e8e8c3b24f9d5eb849f942d52816f515385b7bd7338f54d633fdc2fd"
+    },
+    {
+      "id": "s3-89-window",
+      "section": "S3",
+      "label": "Rejected marketing window",
+      "value": "88.9% on 90 Hyperliquid close-cycles (402 fills, 2026-09-03 measure) is the OLD vault engine, before the update. We do not sell it as the current engine.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s3-clock-cap",
+      "section": "S3",
+      "label": "Documented failure — holding-time cap",
+      "value": "97% of five-year lab losses came from a coded holding-time cap that closed positions in loss. Removed 2026-08-22. Historical archive.",
+      "as_of_utc": "2026-08-22",
+      "source_note": "420",
+      "source_path": "notes/420_HOLDING_TIME_CAP.md",
+      "source_sha256": "acf24136f15d47d1f10bbe9bcb93ff02a5ed4ddf883bb44cae4d0b4377d9f583"
+    },
+    {
+      "id": "s3-100-detector",
+      "section": "S3",
+      "label": "100% win rate",
+      "value": "A 100% window is a failure detector, not a target to defend by filtering entries.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "000",
+      "source_path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md",
+      "source_sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"
+    },
+    {
+      "id": "s4-cameras",
+      "section": "S4",
+      "label": "Camera integrity chain (genesis)",
+      "value": "3 hashed snapshots (journal, observations, vault clock) committed 2026-09-03T00:50:00Z",
+      "as_of_utc": "2026-09-03",
+      "source_note": "653",
+      "source_path": "notes/653_CAMERA_INTEGRITY.md",
+      "source_sha256": "aec9515c3412d098275728725f62ef0bb5de2dda6a23db49025539cf2c4b017b"
+    },
+    {
+      "id": "s5-vault",
+      "section": "S5",
+      "label": "Vault on-chain",
+      "value": "0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+      "as_of_utc": "2026-09-03",
+      "caption": "Hyperliquid vault. Fills and slippage join this section after the first 30 live fills.",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s6-research",
+      "section": "S6",
+      "label": "Ongoing research",
+      "value": "Hypotheses are tested on historical data before production. Failures are documented, not hidden.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s7-disclaimer",
+      "section": "S7",
+      "label": "Mathematical truth over marketing",
+      "value": "Past performance does not guarantee future results. Deposited capital is exposed to market risk.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    }
+  ]
+}

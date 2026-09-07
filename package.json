@@ -1,0 +1,23 @@
+{
+  "name": "@hypernatt/audit-public",
+  "version": "1.0.0",
+  "description": "Official public verification and cryptographic audit repository for HyperNatt and the Remora Engine",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/verify_ledger.mjs",
+    "verify": "node scripts/verify_ledger.mjs"
+  },
+  "keywords": [
+    "hypernatt",
+    "hyperliquid",
+    "remora-engine",
+    "proof-of-process",
+    "defi",
+    "non-custodial",
+    "quant",
+    "audit",
+    "sha256"
+  ],
+  "author": "DIALLOUBE-RESEARCH",
+  "license": "MIT"
+}
