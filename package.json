@@ -14,8 +14,7 @@
     "nattswap",
     "mcp-terminal",
     "nattchat",
-    "nattshield",
-    "nattsquare"
+    "nattshield"
   ],
   "author": "Hamet Diallo (DIALLOUBE RESEARCH)",
   "license": "MIT"

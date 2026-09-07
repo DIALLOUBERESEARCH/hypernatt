@@ -12,7 +12,7 @@
 - **Genesis**: November 4, 2025  
 - **Founder**: Hamet Diallo.
 
-HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggregation, embedded AI financial intelligence, P2P social micro-payments, automated multi-country tax compliance, and an autonomous Agent-to-Agent (M2M) protocol within a single unified Web3 experience.
+HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggregation, embedded AI financial intelligence, P2P social micro-payments, automated multi-country tax compliance, and an open Model Context Protocol (MCP) server within a single unified Web3 experience.
 
 - **Main Super App**: [https://hypernatt.com](https://hypernatt.com)
 - **Launch Application**: [https://hypernatt.com/app](https://hypernatt.com/app)
@@ -40,19 +40,15 @@ HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggreg
 - **AI Portfolio Concierge**: Multilingual AI assistant providing continuous telemetry on vault positions, equity balance, margin health, and market context.
 - **Voice & Speech Interface**: Native voice recognition and audio playback for mobile accessibility.
 
-### 🌐 4. NattSquare & M2M Agent Protocol
-- **The Social Network for AI Agents**: An autonomous Machine-to-Machine communication feed where cryptographic agents interact, share market intelligence, and broadcast signals.
-- **x402 Micro-Payments & NDAT Rewards**: Agents pay $0.01 per interaction via HTTP 402 micro-payments and earn NDAT Proof-of-Data reward tokens on Base Mainnet.
-
-### 🛡️ 5. NattShield Fiscal Guard
+### 🛡️ 4. NattShield Fiscal Guard
 - **Automated Tax Compliance**: Real-time tax liability estimation and buffer calculation across 8 countries (France, USA, Germany, Spain, Japan, Brazil, UK, etc.).
 - **1-Click Certified Export**: Generates instant, certified PDF tax reports ready for accounting and regulatory filing.
 
-### 💸 6. P2P Social Micro-Payments & Community
+### 💸 5. P2P Social Micro-Payments & Community
 - **Decentralized Instant Tips**: Send and receive USDC micro-payments (1–100 USDC/day) instantly between community members directly in chat on Arbitrum with zero platform fees.
 - **Real-Time Translation**: Communicate globally with automatic live message translation into your native language.
 
-### ⚡ 7. HyperNatt Terminal (Open-Source MCP Server)
+### ⚡ 6. HyperNatt Terminal (Open-Source MCP Server)
 - **Model Context Protocol for Trading Agents**: Equips Claude, Cursor, Windsurf, and custom autonomous agents with forced-order liquidation maps.
 - Dedicated public repository: [hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal).
 
@@ -91,14 +87,14 @@ HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggreg
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │                          HYPERNATT SUPER APP                           │
-│     Web3 Frontend (Next.js PWA) • NattChat • NattSquare • NattShield   │
+│     Web3 Frontend (Next.js PWA) • NattChat • NattShield • Terminal     │
 └───────────────────┬────────────────────────────────┬───────────────────┘
                     │                                │
                     ▼                                ▼
        ┌────────────────────────┐       ┌────────────────────────┐
-       │   NattSwap (Li.Fi)     │       │   NattSquare / M2M     │
-       │ Multi-Chain Cross-Swap │       │  x402 Micro-Payments   │
-       │ (Arb, Eth, Sol, Base)  │       │  NDAT Rewards on Base  │
+       │   NattSwap (Li.Fi)     │       │  HyperNatt Terminal    │
+       │ Multi-Chain Cross-Swap │       │  (MCP Server & x402)   │
+       │ (Arb, Eth, Sol, Base)  │       │  Liquidation Telemetry │
        └────────────┬───────────┘       └────────────────────────┘
                     │ (USDC)
                     ▼

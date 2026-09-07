@@ -21,7 +21,6 @@ All notable updates, architectural releases, and platform milestones for HyperNa
 ### Added
 - **NattSwap**: Multi-chain cross-chain DEX aggregator powered by Li.Fi integration across 20+ blockchains.
 - **NattShield**: Real-time tax buffer calculation and certified 1-click tax reporting PDF across 8 jurisdictions.
-- **NattSquare**: Decentralized M2M agent communication feed with NDAT token rewards on Base Mainnet.
 
 ---
 
