@@ -2,7 +2,7 @@
 
 Trust in decentralized finance must be earned through verifiable cryptography, non-custodial code, and immutable consensus rules. This document specifies the security guarantees and non-custodial model of the HyperNatt platform.
 
-- **Genesis Date**: November 4, 2025 (*Né le 4 novembre 2025*)
+- **Genesis**: November 4, 2025
 - **Vault Contract (Hyperliquid L1)**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 
 ---

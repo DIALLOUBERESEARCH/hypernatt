@@ -9,7 +9,7 @@
 
 **HyperNatt is the sovereign, non-custodial decentralized finance Super App built natively on Hyperliquid L1.**
 
-- **Official Genesis Date**: November 4, 2025 (*Né le 4 novembre 2025*).  
+- **Genesis**: November 4, 2025  
 - **Founder**: Hamet Diallo.
 
 HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggregation, embedded AI financial intelligence, P2P social micro-payments, automated multi-country tax compliance, and an autonomous Agent-to-Agent (M2M) protocol within a single unified Web3 experience.
@@ -162,4 +162,4 @@ HyperNatt unites automated non-custodial vault execution, multi-chain DEX aggreg
 
 - The frontend interfaces, documentation, SDKs, and integration tools in this repository are licensed under the [MIT License](LICENSE).
 - The Remora execution engine, algorithmic models, and private vault orchestration infrastructure remain the exclusive intellectual property of Hamet Diallo / DIALLOUBE RESEARCH.
-- **HyperNatt Genesis**: **November 4, 2025** (*Né le 4 novembre 2025*). All rights reserved.
+- **HyperNatt Genesis**: **November 4, 2025**. All rights reserved.

@@ -28,7 +28,7 @@ All notable updates, architectural releases, and platform milestones for HyperNa
 ## [1.0.0] — 2025-11-04 (Genesis Release)
 
 ### Inception
-- **Official Genesis Date**: November 4, 2025 (*Né le 4 novembre 2025*).
+- **Genesis**: November 4, 2025
 - **Core Platform Architecture**: Launch of the sovereign non-custodial Super App on Hyperliquid L1.
 - **Remora Engine Integration**: Automated algorithmic execution with capital preservation priority.
 - **Non-Custodial Vault Contract**: Deployment of native Hyperliquid L1 Vault (`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`).
