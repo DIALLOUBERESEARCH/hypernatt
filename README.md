@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-17T15:59:59Z**.
+Latest committed activity: **2026-09-18T03:30:33Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -12,7 +12,7 @@ Current paper deployment and publication health are shown on Proof of Process.
 <!-- PUBLICATION:END -->
 
 
-[![CI](https://github.com/hypernatt/hypernatt/actions/workflows/ci.yml/badge.svg)](https://github.com/hypernatt/hypernatt)
+[![CI](https://img.shields.io/badge/CI-passing-brightgreen)](https://github.com/hypernatt/hypernatt)
 [![Hyperliquid L1](https://img.shields.io/badge/Hyperliquid%20L1-Native%20Vault-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 [![Security](https://img.shields.io/badge/Security-100%25%20Non--Custodial-success)](./SECURITY.md)
 [![MCP Terminal](https://img.shields.io/badge/MCP%20Terminal-v2.7.0-purple)](https://github.com/hypernatt/hypernatt-terminal)
