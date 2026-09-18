@@ -12,6 +12,8 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-18T13:59:14Z - F345 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: f9c44d316c325209197ef9cc4c40992e63a64488ea6ab5e5e23e86361091ea2a
 - 2026-09-18T13:11:37Z - F378 - Engine release: Deployed for paper observation.
   Evidence SHA-256: d41a5687d3998678249499b940b264066b0cd3dd2b1ba95382bfaddacfcb35b2
 - 2026-09-16T00:15:32Z - F345 - Public evidence publication: Recorded technical checks passed.
@@ -27,7 +29,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-18: 20 commits (application: 8, documentation: 10, engine: 1, operations: 6, research: 6).
+- 2026-09-18: 24 commits (application: 8, documentation: 11, engine: 1, operations: 6, research: 10).
 - 2026-09-17: 16 commits (application: 4, documentation: 11, operations: 2, research: 12).
 - 2026-09-16: 57 commits (application: 23, documentation: 43, engine: 1, operations: 13, research: 17).
 - 2026-09-15: 64 commits (application: 28, documentation: 29, engine: 3, operations: 8, research: 24).
@@ -40,6 +42,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 0447ac274274595df26bee32398de688064150b1d9252748fe713ffb36354d27
+Snapshot SHA-256: 9240d23efccbbe63b413ecc6a0735cc4f0da6a473fb76b55ed423c325dd88a74
 
 Live publication: https://hypernatt.com/audit
