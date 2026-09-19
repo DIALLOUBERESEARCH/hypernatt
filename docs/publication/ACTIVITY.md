@@ -12,6 +12,8 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-19T12:51:01Z - F378 - Entry-policy research: Checks incomplete; no promotion.
+  Evidence SHA-256: 80084377ffc821f70d99695609bc7342c0fbf3220f1e46892b78cb61170da37d, 9e6b9080f84d9ea35607f91f2878a4b31988135fd2b3c0723a296a61a0b13409
 - 2026-09-19T12:37:19Z - F378 - Entry-policy research: Checks incomplete; no promotion.
   Evidence SHA-256: 39cdff8bad757162b9ae55c6cc1c3673359f4f45b7f9236e4cf8f209547b2d09
 - 2026-09-19T12:18:57Z - F378 - Entry-policy research: Recorded technical checks passed.
@@ -101,7 +103,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-19: 44 commits (documentation: 14, research: 31).
+- 2026-09-19: 46 commits (documentation: 15, research: 32).
 - 2026-09-18: 74 commits (application: 8, documentation: 36, engine: 1, operations: 6, research: 35).
 - 2026-09-17: 16 commits (application: 4, documentation: 11, operations: 2, research: 12).
 - 2026-09-16: 57 commits (application: 23, documentation: 43, engine: 1, operations: 13, research: 17).
@@ -115,6 +117,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: ea551c20d1be4ff8664967ce888f47bd5e0a7a26734799d3a6eea1cc78418de9
+Snapshot SHA-256: 74b9305457a6a3f6a7b95ebd8c14dc5dbd6212267e3dd176be8d49c42ad786a4
 
 Live publication: https://hypernatt.com/audit
