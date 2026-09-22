@@ -12,6 +12,72 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-22T09:46:04Z - F400 - Entry-policy research: Evidence inconclusive.
+  Evidence SHA-256: 53159511e9540a9f0e32fc6dc5875822bcd03c66a71f0fe136b6c49086e71a63, f752305df0c8f0b4dac8d0ddf435054891994cf414e71410439b31af4fd1f15d
+- 2026-09-22T09:31:39Z - F400 - Entry-policy research: Evidence inconclusive.
+  Evidence SHA-256: d51816b8794c4067a56a5851612b447334ad9becc2d51ddb78d95742a00c324b, df5a00470511f68a2e9f4a53466ae6e187975f35e87ecade917a153f168afeb6
+- 2026-09-22T08:06:42Z - F400 - Entry-policy research: Evidence inconclusive.
+  Evidence SHA-256: 07f62657c80e9b9609fd79d0e1e9c7bc6c093a6410c528ca56a149803d90d784, 5954db521bbed5ccaca9c724dcd7e4741920085d1a0809ce681ee45354bb287e
+- 2026-09-22T07:43:30Z - F400 - Entry-policy research: Evidence inconclusive.
+  Evidence SHA-256: 4fb24c9c539f42fb4b656d271f9963fa3b57a2c5c4d3875811cbdf4c116d0cf1, 831dc5e712d79d45212108e65ae490b5a2b1cee3146248ad12b49470d2f6e519
+- 2026-09-22T07:25:03Z - F400 - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 9635fff26c4a4a084ab832d0ecb0cc8bf6e398ca55a722a8779000d519cc9d63, ab3d360019053d204022edbc28e7c44905e8644c50766f3ed61068c8f9c6e886
+- 2026-09-22T01:24:49Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 31e4ddc20485dec7840ffaa5d30bb3f52366499c78674f816ef9a59d5c223840, fc2d2bae84f7b3f6f15a7399e0a7f77cde519b908dfd09a150cbe226730a71ad
+- 2026-09-22T00:32:53Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 0ee1994085d20df1884affb0d0e05bca1ef3b82da0f9694d2883c9f3d435c0d5, 4b8a63a5c73431e9535bdcd36ec108a5b59ec8885dbfcd43ff0dd4c3424fe1cc
+- 2026-09-22T00:16:40Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 2f37bff5387c311c26c4e99a3a3fae67fd33843445895dec9fd51d3da8ccce67, 7bcdaac0abbb168b8776f3a2c6862057dc4ba61f6eea57a1f5599153308a0cc3
+- 2026-09-22T00:01:48Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: a31024f339928630ce4fb6fa46a6974070f4a7ae38fe420b515dc372db54f7ce, e65f616706ee1272351c6932878a1059ade6c8989f0f31df4a298e94590429fc
+- 2026-09-21T23:22:04Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 04c05eb0bc59e03b8902e95511bc61447cbd5523db91ba283c451826b8fa651e, 953b64881237b89fecfebc9d83a8729edf06e43b0d7a11687ad6602afa3be38b, eb496ccd0589b4b524d312ef5efcab5dd2b12143f2428630d644c22ac025ea27
+- 2026-09-21T23:02:23Z - F400 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 19602e4b85f8efbd8aa49be4c4c1974adecf2b884857a6d180301a44a788654e, 658b2bd12b7d06a194b1ea99f60111017e0c49600040beba3d4bcf0914b06782, 6c37e1c0fb3b0bd7fef2f5f633ab8e102f4d995feee04b21e59c6e77b122072a, eeb1f1492ccebde096d86d1948ca6e8199bd8471f38343515e54b49d026c1760
+- 2026-09-21T22:32:19Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 4b54fe1ddeea641f7bce399c02e5f0d95aa93e446ffd55da3a04d95e5a1b0bdc, 557af0ec84e819b408954f469ecb1061374ab233aa1f7eca920f62a3291ef995, b1702e6744472bb130c37932a15e2ce5c3b95b9a7ae1d61bb72ad4b0f3664e32
+- 2026-09-21T22:13:56Z - F400 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 08d05021aaa6a10ae7c788675899d263d800d619804482a1433004f85f2babfa, 69d42cb562f17f28a1006ffc458ca2c6cc6db33bddc48a8218c0f8b7a9c5fb43, a497a5001bfaaebc3a03e2af68ce03536ee78b2d0bd93ecce56ee6a54281c1b2
+- 2026-09-21T14:48:38Z - F400 - Prospective observation: Recorded technical checks passed.
+  Evidence SHA-256: 56236f469818fb537cf9ebacc79ac23a4d35b6f035500965c02dd3e24d1bb22a, 6fdf1db8592fbf19b5e697c5275134c8e14d89bd52c4453b74bdac535fbc905f, d015c23c977eed83c63f254c32e5da0d8d0b191c6f7efc3e744b60ce55b989ef
+- 2026-09-21T12:43:26Z - F400 - Prospective observation: Recorded technical checks passed.
+  Evidence SHA-256: 4e64477175669a83a7813cf3d92eb8deac82a5bc09d731b2e497287328fbb167, b89ce6d3b7b2ed1aa5d88e02957917a82c28cc01fe7e1fc808ffdc95e4e9f33e, e63f9cdc0dafd3084830057d522ab4e6ae9ff064f983b0dbef4f6aef9f287f95
+- 2026-09-21T12:29:00Z - F400 - Prospective observation: Evidence inconclusive.
+  Evidence SHA-256: 0dab4655a1925cd965e0ff084790768084fc296bb0af821d3d6c9c4d594bb72b, 38726a839cde948a991b4848f34cc601e32ffe5db75f2b80da3819228f607e8f, ac5bb21dd579586adbd939c35f6fb705f93655ab7d61f6059237a226a4086868
+- 2026-09-21T12:05:24Z - F400 - Prospective observation: Recorded technical checks passed.
+  Evidence SHA-256: 0d9e244c7d2b154412948894a169e6567db8459b85031f7fe477acc0ebb30151, 49207c52bf62cf9cd81d156c814ef8198097a55a8ab0202cda3593ef05e72a88, 5a30ccf72d3f6eacc0e8cea3143ab79ded0f5fe297e2e48dfcd65f2039b47a53
+- 2026-09-21T11:36:30Z - F400 - Prospective observation: Evidence inconclusive.
+  Evidence SHA-256: 51c329a7f4a5a4b6b2a05544552fe43d327f7c3a07f4105161d9b969af6b2c9f, 76ee58531f38255e87b9dab807c2e2e8a393e72826abb75e7a3db54b4a2ca017, 776d2e5d6496236d16fde90bd77a4b5653b8fea8ed86b7adb87001be06f2fb56
+- 2026-09-21T10:12:20Z - F400 - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 16823ec2aea658b4cebffb78e25d4a523dff757c88b988d244e6ec03485f3c7a, 47a72e65b9526138ca0d33a435a50ee14516b9e09f3f5707b537a220f8dbda63
+- 2026-09-21T09:14:51Z - F400 - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 24d58486fff50ab61a6062711affd909ec34d0582fbce99bc06413a03a934ec0, 30bb761da997ddcdb863614559c78b848e7fea37229fd49d04b5400cc9ce27e4
+- 2026-09-21T08:38:55Z - F400 - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 85bf17a541a512fac188777dacd5531cbce5610e2a601a1a138fe09c8e0a75a3, c68eea8b84e6d5a6d540fbbe26bf8084b4d03254d2e9e32453c7eecf45f0c049
+- 2026-09-21T08:18:35Z - F400 - Entry-policy research: Recorded technical checks passed.
+  Evidence SHA-256: aae6f651d7ecd5d51bd24c6d71158a48a7ccbf3ea461941ab804abd840b89221, fd39efd50d74b529dde2991a539e13cb6d85ad8645d49b6f6bbab55b6c71d788
+- 2026-09-21T07:47:08Z - F400 - Entry-policy research: Evidence inconclusive.
+  Evidence SHA-256: 1ba5fd8989c7b0aea5fdbdb07e6705d631061553002dfc3517a4535dfc44b1f3, 37d018ea7c99894b26f3879aec4213ad32dcf65a097718bf675e6d3ef92bfda1, e00c473b50dcfa930a1571fb1fe2f7a67c6f61269927d3ff21598bb08ab0d33c
+- 2026-09-21T07:06:25Z - F400 - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 87ca068ee4f2197ab482b2395772d762a2c9371d0d6970d5b81fbe88a2493406, 906a8260ecebf117ec80b235be7d66dd715d69145199d7ef6a5771da1d120e21, a218788e67e7c8e13074f3916e422dec2650b7fdd3f47661fe83826b8fb93325
+- 2026-09-21T06:41:16Z - F400 - Entry-policy research: Checks incomplete; no promotion.
+  Evidence SHA-256: 1c6959e3c9a2ec477ddff6169db865c54de9ce65c504b60b103fe5edef9fb48d, 6fc1965a4811067c872502d52fc84ffa1375b4b99237a5862e96409f0379c06e, cffe2135daab9a3c60f8539287f97e4abc27555b79fa99dec2fde00910f40e37
+- 2026-09-21T06:19:27Z - F400 - Entry-policy research: Checks incomplete; no promotion.
+  Evidence SHA-256: 3a13aa135cf8a7e1002dcf0a1b0609d9e3b99d0f6968a3fd58b113e41b46a12f, b7b613da288004193723695f10972a0acc3baae171638dfe5bbb5dd93335d35d, c277bc9a544982000683b2299bacccbe173f6e04240139884dae737bc9711ec6, db7ef90087a0e5aada961ef07d97003f7b8f78d0dc51f0955fab776471215a6f
+- 2026-09-21T06:05:47Z - F400 - Entry-policy research: Checks incomplete; no promotion.
+  Evidence SHA-256: 0e6f0e95c9b3bf707464494dde113ce01a00c161ffb122d7de445fb5cac058c8, 4957b803c321294479638a028f123a29af853a59f3c6b7925fadf26d368e0aa2, 586ed57af48f7514d960ea7142d68dd7aedbac1cdeec1ac70aa1a9ba239a8444, e0d2b419ec02b02da3a5908fbc64818b042a6679f256612f331d6588bb9a4872
+- 2026-09-21T05:26:42Z - F400 - Reproducible replay bench: Observation in progress; no financial conclusion.
+  Evidence SHA-256: 3d62939e53d9ce91b26c4e6b70115454ed1f8d9b322cfcfe7b36483760811e54, 52789188a70777b3938829e3de981b3d63f4cbc2d39b1f01c253c7cec0620ccf, 91c20d734266115dc927cee5bc52dddb1f24d0055c3c3be80fb5e64b3e23f70b, fbf5e9226dd4936b0198430068f196cbfdcfc04d1222ca90c7e55353c5ace64f
+- 2026-09-21T04:48:55Z - F400 - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 13a9060dfa24a105e5688ee8bbf6e4b650b9eb9472e4bc33f2c52cc5f08fd793, 18d8093fba52a585f929ffd38d0e53c7b1a3b04aa9c7c4daecda726043955b85, ce67edd2c8e0c3c3c0137dca66da2e0666afbee65c8467d8072d4f46b41f54a7, d8d0438b4982b2e09c70d07090fb5093796956539978bb918bf628a9f5eb3f3f
+- 2026-09-21T04:17:44Z - F400 - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: da8694f3c39e1c369e9414f5e8649f7c9cfda9df3839436f80dd9eb384c0cd54
+- 2026-09-21T03:59:12Z - F400 - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 49b7dd74ac740573af37c04af449db65b9e33bb7f593ad8a4b0a7bc402944674
+- 2026-09-20T21:20:46Z - F400 - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: f7fe4240ccec521fae75a31f40e06be3e601f7dbc4829893fdf49c51546ee523
+- 2026-09-20T20:55:32Z - F400 - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 90e10663c1279120935f61913c34c98e2eea980204bf9e73bfe8164e19ee0363
 - 2026-09-20T12:51:49Z - F400 - Entry-policy research: Recorded technical checks passed.
   Evidence SHA-256: a1bbe297be545188bc69dcf5a407cb133746bbb9c3582731e3cc00fa9bd20f5d
 - 2026-09-20T12:35:40Z - F400 - Entry-policy research: Checks incomplete; no promotion.
@@ -203,7 +269,9 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-20: 95 commits (documentation: 40, research: 85).
+- 2026-09-22: 27 commits (documentation: 11, operations: 1, research: 18).
+- 2026-09-21: 67 commits (documentation: 22, research: 47).
+- 2026-09-20: 103 commits (documentation: 42, research: 91).
 - 2026-09-19: 110 commits (documentation: 57, research: 79).
 - 2026-09-18: 74 commits (application: 8, documentation: 36, engine: 1, operations: 6, research: 35).
 - 2026-09-17: 16 commits (application: 4, documentation: 11, operations: 2, research: 12).
@@ -218,6 +286,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: d34771864d8ec43152be1271f31c36ca3f31e4db78dcad89a5651853b46b4d36
+Snapshot SHA-256: 8e85025648df82963668c34ca9f818125c3cd268e38cc36c229d1bcd5f8fdba1
 
 Live publication: https://hypernatt.com/audit
