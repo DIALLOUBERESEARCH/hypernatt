@@ -12,6 +12,8 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-23T14:38:29Z - F400 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 0a9d234696fbdea80beb45c826386be72faa1ddabc39b5b35776a9d08478ff7b, 6903d83fb99ced2b4e476bae6ae0ed15eb815472cc8e73110a43b22a4e9a42b5, 7892ad30211cae3668d2ced5609529a2684ffc972b79c62dcab47f1f60ee3e4a, 975ab702cfae1ceaa5e155c972e5901a3d17f27cdb59405835d603fa0c0e0ba4, a36147fb1fd85bc679392b7a66d5e40af6460401c1b4fffdf5346cbcbbc7a4eb, afefdad4b3a5795178e25eb520bcd0a5f44b0ec45a9ef6285c082d5b53ab2195, b380ff6c967692c20204526307715e4101f85393ece378c22035c2ee46f62a2c
 - 2026-09-23T11:53:40Z - F400 - Reproducible replay bench: Evidence inconclusive.
   Evidence SHA-256: 176adc77aa2b2171295640665e2db3894d2ddde9a8d22c20fc0a0b30a033fb9d, 2565042f950ca1d97bfe5f6e5a13c14006aa0c6c645784086534f95c1f122f9f, 3943a7ec3b4c6e1b0934db5ad74112e437772f7c96a14764faa1b3b3cd649f01, 5006e45c7f57f070be247ca4d22c8b7afd3ba5db78ea7208412e8b65c6ff8c8d, 719f18e78bf209f0f38a26deab7a37ee699754b29a88b56cb02bf783f435e1b3
 - 2026-09-23T11:31:47Z - F400 - Reproducible replay bench: Evidence inconclusive.
@@ -327,7 +329,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-23: 50 commits (documentation: 22, research: 28).
+- 2026-09-23: 52 commits (documentation: 23, research: 29).
 - 2026-09-22: 45 commits (documentation: 18, operations: 1, research: 30).
 - 2026-09-21: 67 commits (documentation: 22, research: 47).
 - 2026-09-20: 103 commits (documentation: 42, research: 91).
@@ -345,6 +347,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: eef6c5585fcea504e150dfc5e27eb0815dd0ed862e25f68efeade156cbffeedb
+Snapshot SHA-256: 6ae9cb1f66706b8d2b97bd0286aaad0370dc1f5d4bd20e9a02535c9992c6a7e5
 
 Live publication: https://hypernatt.com/audit
