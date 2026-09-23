@@ -12,6 +12,8 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-23T16:03:08Z - F400 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 020fcd43510c446500a3db512eb3f5696d2a9e6a638e1c7d241c4a6cc9bd65be, 314add6b8a4cc2a4c7f13d0f62252b684e5f7cba3e5cf1305c2d848985dcbeb0, 784b6f2264128b00993ca8fb827b8de2b77c9a51e4fe6bca18c1fccb3114ade0, 7a01c85571dcbe7b99e2980cfd3700b7bf3d3503334f82b98eca40f51a605b9b, 85f525467fefabf337f00046465ad30ae9db52017a3bb4d0d5f8f24dde0d6833
 - 2026-09-23T15:38:33Z - F400 - Reproducible replay bench: Evidence inconclusive.
   Evidence SHA-256: 0e9ad122a8eeda2ec5f4f71bea973684933800ac8f0dd2ccd712ad413c529207, 1d62ed6d4110e2bcab7d42af41a4eb34860392ed9dea2f0e115faa70918e4fc6, 3b2e4551442ce888e9e65485c79760258c5c2a9cbe957472a68806d85f85a2cf, 78d057f7e6806f4bc46158a1db06154373d452aed455a97e2f483e097dc3f500, 8e7b26d33fb431e941f50cb9781f4b092a51f4026ca9fc79598c660caf8cf251, 90ffe857dd165f8e7b8fa51d1899e390621aca227b89e825b7fee47db5df7bfc, ba20f8f232451dd7764690459997acc830e02a64707d51643407432e17351db0, efdbd9b87da3c6a3270c012663855ca7948df45ab34240dc869b179e41ddb03d
 - 2026-09-23T15:09:56Z - F400 - Reproducible replay bench: Evidence inconclusive.
@@ -333,7 +335,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-23: 56 commits (documentation: 25, research: 31).
+- 2026-09-23: 58 commits (documentation: 26, research: 32).
 - 2026-09-22: 45 commits (documentation: 18, operations: 1, research: 30).
 - 2026-09-21: 67 commits (documentation: 22, research: 47).
 - 2026-09-20: 103 commits (documentation: 42, research: 91).
@@ -351,6 +353,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 0d8f044febb6f2cc0fe2d8461ec2f6b3beb6e619d60f1bf4033799e54c12da49
+Snapshot SHA-256: ce0115a18fbf84ac867ba20d9332f5f93a25d779315a0ecd6b4db7527b5d6c18
 
 Live publication: https://hypernatt.com/audit
