@@ -12,6 +12,8 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-09-23T15:09:56Z - F400 - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 0fdf4af233d42f4625953cfc4f9db7eb29abfc3266fd5e90115a2c3a572257ef, 4e975acf098911bfca58213d11f14fc98255e571c2ba7ef40b270dc6c705bb42, 5647fee9a83acd5af8890c2b1ad0308ec9cc5f911864f766d3dd290aa0c309e4, 79b7e6ca606a09de961b93ff980b3f91b1b7608bbdd28c2c30c1aefcd1850386, 94c1a6fdc37e8c8e5754c02f72607be051e8b88092246df3d954ac42d4558b67, ef70ca19cd61dea8f809a603b8c96dfe3add3e553de680139769e04deb018b65, f38733b2447fb68979af9bcf80d2736353e441f9deda43e9a97ad91933a7db9a
 - 2026-09-23T14:38:29Z - F400 - Reproducible replay bench: Evidence inconclusive.
   Evidence SHA-256: 0a9d234696fbdea80beb45c826386be72faa1ddabc39b5b35776a9d08478ff7b, 6903d83fb99ced2b4e476bae6ae0ed15eb815472cc8e73110a43b22a4e9a42b5, 7892ad30211cae3668d2ced5609529a2684ffc972b79c62dcab47f1f60ee3e4a, 975ab702cfae1ceaa5e155c972e5901a3d17f27cdb59405835d603fa0c0e0ba4, a36147fb1fd85bc679392b7a66d5e40af6460401c1b4fffdf5346cbcbbc7a4eb, afefdad4b3a5795178e25eb520bcd0a5f44b0ec45a9ef6285c082d5b53ab2195, b380ff6c967692c20204526307715e4101f85393ece378c22035c2ee46f62a2c
 - 2026-09-23T11:53:40Z - F400 - Reproducible replay bench: Evidence inconclusive.
@@ -329,7 +331,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-09-23: 52 commits (documentation: 23, research: 29).
+- 2026-09-23: 54 commits (documentation: 24, research: 30).
 - 2026-09-22: 45 commits (documentation: 18, operations: 1, research: 30).
 - 2026-09-21: 67 commits (documentation: 22, research: 47).
 - 2026-09-20: 103 commits (documentation: 42, research: 91).
@@ -347,6 +349,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 6ae9cb1f66706b8d2b97bd0286aaad0370dc1f5d4bd20e9a02535c9992c6a7e5
+Snapshot SHA-256: 84c31d854118c68453ee2295e0569a19e0bcde337bb57baf79682f6a69e82765
 
 Live publication: https://hypernatt.com/audit
