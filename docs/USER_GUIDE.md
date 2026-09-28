@@ -1,60 +1,72 @@
-# HyperNatt Super App — Complete User Guide
+# HyperNatt user guide
 
-This guide walks you through connecting your wallet, depositing into the non-custodial Hyperliquid L1 vault, using cross-chain swaps, and monitoring live execution.
+Updated 29 September 2026. Start at [hypernatt.com](https://hypernatt.com) and
+enable guided mode for explanations inside the application. The
+[official documentation](https://hypernatt.com/docs) provides eight languages.
+New vault and reward paths remain under qualification; follow their availability
+in the application and do not bypass a disabled action.
 
----
+## Wallet and beta
 
-## 1. Connecting Your Wallet
+Install a wallet from its official website or verified application-store listing.
+Trust Wallet is one supported mobile option. Record the recovery words securely
+offline if your wallet provides them. Never send them to HyperNatt, support,
+friends or an AI assistant. Losing both wallet access and recovery information
+can mean losing access to funds.
 
-HyperNatt supports all major EVM and Web3 wallets:
+Connect the wallet through the application. Review connection and signing
+requests; an asset approval or transfer is different from signing in.
+Closed beta provides one founder master key and 99 single-use invitations,
+for at most 100 participants. Redeem only through the official application.
+Admission does not replace the vault's transaction and permission checks.
 
-1. Open [https://hypernatt.com](https://hypernatt.com) on your desktop browser or mobile device.
-2. Click **Connect Wallet** in the top navigation bar.
-3. Choose your preferred wallet provider:
-   - **MetaMask**
-   - **Rabby Wallet**
-   - **Coinbase Wallet**
-   - **Trust Wallet**
-   - **WalletConnect** (for mobile wallets)
-4. Confirm the connection prompt in your wallet extension or mobile app.
+## Deposits and shares
 
----
+The new vault path uses **HyperEVM, chain 999**, with HyperCore integration.
+Check the current contract and exact USDC asset displayed on the vault page.
+Keep enough native gas for transactions. Review the amount and any approval
+before confirming a deposit; wait for the actual receipt before treating it as
+complete. The complete new capital circuit is still being qualified.
 
-## 2. Depositing into the Hyperliquid L1 Vault
+Vault shares, including a displayed NATT USDC share name, represent your
+position in the vault. They are not an airdrop and are not the NATT reward token.
+Share value changes with assets, liabilities and trading results.
 
-1. Once connected, navigate to the **Vault** tab on the dashboard ([hypernatt.com/app](https://hypernatt.com/app)).
-2. Enter your desired deposit amount in USDC (minimum deposit: **$5 USDC**).
-3. Click **Deposit**.
-4. Confirm the transaction in your wallet.
-5. Once confirmed by the Hyperliquid L1 network, your deposit is converted into vault shares representing your sovereign ownership of the pool.
+## Withdrawals
 
-> **Non-Custodial Guarantee:** Your funds are locked directly in the Hyperliquid L1 consensus contract (`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`). No intermediary or platform admin can withdraw or move your funds.
+Use the vault's Withdraw flow to preview what your shares can redeem, then
+review the network, recipient and transaction in your wallet. Availability
+depends on contract rules, liquid assets and any required HyperCore settlement.
+Withdrawals are not promised to be instantaneous. If confirmation is delayed,
+check the existing transaction before sending another one.
 
----
+## Swaps, NATT and staking
 
-## 3. Cross-Chain Swaps with NattSwap
+Choose the source and destination networks and tokens in NattSwap. Review the
+route, fees, price impact, minimum received and approvals. Confirm each required
+transaction in your wallet. On mobile, return to HyperNatt after signing and
+allow it to reconcile the transaction; a pending bridge is not necessarily a
+failed swap.
 
-If you have funds on other blockchains (Arbitrum, Ethereum, Solana, Base, Polygon, etc.):
+Vault trading rewards in NATT are disabled until further notice. The beta reward
+pathway is confirmed swaps. A swap receipt, a reward entitlement and a completed
+NATT claim are different things. Check the amount actually credited before
+staking. Staking rewards depend on the pool's real funding, not a promised APR.
 
-1. Open the **Swap** section on HyperNatt.
-2. Select the source blockchain and the token you hold.
-3. Set the destination to **Hyperliquid USDC**.
-4. NattSwap automatically routes your swap through Li.Fi for optimal price execution and bridges your funds directly.
+## Community, fiscal assistance and spending
 
----
+NattChat is the assistant. Community chat and direct messages connect people.
+Check recipients and amounts separately before approving a tip.
 
-## 4. Monitoring Execution & Real-Time Telemetry
+The referral design reduces the eligible vault profit commission from 20% to
+18% when the referral is accepted. It does not guarantee profits.
 
-- **Live PnL & Equity**: View your real-time balance and performance on the dashboard.
-- **Remora Engine State**: Check whether the engine is actively holding positions or maintaining a disciplined flat state to protect capital.
-- **Telegram Alerts**: Link your Telegram account via [@hypernatt_bot](https://t.me/hypernatt_bot) to receive instant notifications when trades occur.
+NattShield assists with fiscal records. Country rules and the new activity
+ledger are still being aligned; verify the reporting year and local rules.
+An estimate or PDF does not replace a tax filing or professional review.
 
----
-
-## 5. Sovereign On-Chain Withdrawals
-
-1. Navigate to the **Vault** tab.
-2. Click **Withdraw**.
-3. Enter the amount of USDC you want to redeem (or select Max for full withdrawal).
-4. Confirm the transaction in your wallet.
-5. Your capital is redeemed from the vault contract back to your wallet address with zero platform permission required.
+For RedotPay, check supported assets and deposit networks in RedotPay itself.
+Do not send HyperEVM assets to an address simply because it looks compatible.
+An Arbitrum route can be used only when both the token and network are supported
+at the receiving end. Account eligibility, card purchase and Apple Pay or
+Google Pay availability depend on the provider and country.

@@ -1,54 +1,55 @@
-# Security & Trust — HyperNatt Super App
+# HyperNatt security and responsible disclosure
 
-Trust in decentralized finance must be earned through verifiable cryptography, non-custodial code, and immutable consensus rules. This document specifies the security guarantees and non-custodial model of the HyperNatt platform.
+Updated 29 September 2026. This document describes security boundaries and
+reporting channels. It is not an independent audit certificate.
 
-- **Genesis**: November 4, 2025
-- **Vault Contract (Hyperliquid L1)**: [`0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
+## Official entry points
 
----
+- [Application and vault](https://hypernatt.com/vault)
+- [Documentation](https://hypernatt.com/docs)
+- [Proof of Process](https://hypernatt.com/audit)
+- [Product repository](https://github.com/DIALLOUBERESEARCH/hypernatt)
+- [Audit repository](https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public)
+- [Terminal repository](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal)
 
-## 1. Official Channels & Anti-Impersonation
+Verify the domain, network, asset, recipient, approval amount and transaction
+details in your wallet. HyperNatt and its support channels do not need your
+private key or recovery words. Do not rely on a token name or logo to identify
+a contract. Verify current addresses through the official documentation.
 
-Always verify the legitimacy of any domain or contract:
+## Vault transition and permissions
 
-- **Super App Platform**: [https://hypernatt.com](https://hypernatt.com)
-- **App Dashboard**: [https://hypernatt.com/app](https://hypernatt.com/app)
-- **Documentation**: [https://hypernatt.com/docs](https://hypernatt.com/docs)
-- **Proof of Process**: [https://hypernatt.com/audit](https://hypernatt.com/audit)
-- **Main Public Repo**: [https://github.com/hypernatt/hypernatt](https://github.com/hypernatt/hypernatt)
-- **MCP Terminal Protocol Repo**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
-- **Cryptographic Audit Ledger**: [https://github.com/hypernatt/hypernatt-audit-public](https://github.com/hypernatt/hypernatt-audit-public)
-- **Official Telegram Bot**: [https://t.me/hypernatt_bot](https://t.me/hypernatt_bot)
+The new design uses HyperEVM smart contracts with HyperCore accounting and
+execution. Historical statements about the native vault's permissions must not
+be treated as guarantees for a different contract or execution path.
 
-**Important Notice:**
-- HyperNatt has **no public token sale, no ICO, and no token contract on Ethereum or Solana**.
-- Beware of phishing attempts and spoof domains.
+Deposits exchange an asset for vault shares. Redemption depends on the actual
+contract rules, available liquidity, any funds in transit and the network.
+Holding shares does not eliminate trading losses, contract bugs, compromised
+roles or infrastructure risks. There is no blanket guarantee of immediate
+withdrawal, immunity to liquidation or impossibility of loss.
 
----
+The capital circuit and engine integration are still being qualified. Deployment
+alone is not approval for public deposits. Verify the deployed code, roles,
+permissions, upgrade controls and accounting before relying on an integration.
 
-## 2. Non-Custodial Architecture & Fund Safety
+## Evidence and personal information
 
-### Can HyperNatt withdraw or steal user funds?
-**Strictly NO.** This protection is mathematically enforced by the Hyperliquid Layer 1 consensus protocol:
+Published SHA-256 digests establish integrity relative to the referenced
+material. They do not establish legal compliance, economic performance or the
+absence of vulnerabilities. Research archives remain dated evidence.
 
-1. **Zero Withdrawal Permissions**: The automated agent wallet (`0x...`) is granted **only trading permissions** on the vault. The Hyperliquid L1 state machine mathematically prohibits agent keys from initiating withdrawals, asset transfers, or destination re-routing.
-2. **Sovereign Depositor Redemptions**: Depositors hold 100% custody of their vault shares. At any time, a depositor can trigger a direct withdrawal back to their own wallet via the Hyperliquid L1 interface.
-3. **No Intermediary Custody**: Deposited funds never touch a centralized server, a private GCP database, or an off-chain multi-sig. They remain locked in the native Hyperliquid L1 vault smart contract.
+Fiscal estimates require the correct wallet, jurisdiction and reporting year.
+A generated PDF is not a certified filing. NattChat does not automatically read
+the user's fiscal report.
 
----
+## Vulnerability reporting
 
-## 3. Proprietary Execution & Closed-Source Rationale
+- Security contact: [contact@hypernatt.com](mailto:contact@hypernatt.com).
+- PGP key: available upon request.
+- Scope: smart contract interactions, API endpoints and web infrastructure.
+- Existing disclosure policy: we acknowledge receipts within 24 hours and do
+  not pursue legal action against security researchers acting in good faith.
 
-- **Why the Remora Engine is Closed-Source**: The algorithmic execution models, neural networks, and sub-second order-routing daemons are proprietary intellectual property. Exposing execution algorithms publicly would subject depositor orders to predatory MEV, toxic arbitrage, and front-running.
-- **Proof of Process**: To provide institutional-grade transparency without degrading alpha, HyperNatt anchors historical milestones and telemetry to verifiable SHA-256 cryptographic digests on [hypernatt.com/audit](https://hypernatt.com/audit).
-
----
-
-## 4. Vulnerability Reporting
-
-If you discover a security vulnerability affecting HyperNatt smart contracts, web infrastructure, or telemetry feeds, please report it responsibly:
-
-- **Security Email**: [contact@hypernatt.com](mailto:contact@hypernatt.com)
-- **PGP Key**: Available upon request.
-- **Policy**: We acknowledge receipts within 24 hours and do not pursue legal action against security researchers acting in good faith.
-
+Describe the affected component and a minimal reproduction. Avoid including
+private keys, recovery words or another user's private data in your report.

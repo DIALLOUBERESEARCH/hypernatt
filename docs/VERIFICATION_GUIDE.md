@@ -1,53 +1,49 @@
-# Independent On-Chain & Cryptographic Verification Guide
+# Verify HyperNatt's public evidence
 
-This guide enables any developer, quant, or auditor to independently verify the non-custodial integrity and public audit proofs of the HyperNatt platform.
+## Current publication
 
----
+Open [publication health](https://hypernatt.com/audit/publication/health.json)
+and [the current bundle](https://hypernatt.com/audit/publication/latest.json).
+Check the timestamp and each destination's status. A stale or failed delivery
+must not be treated as current evidence.
 
-## 1. On-Chain Vault Verification (Hyperliquid L1)
+The same bundle is published at:
 
-The single source of truth for all trades, equity balances, and liquidation immunity is the native Hyperliquid Layer 1 blockchain:
+- [Product repository](https://github.com/DIALLOUBERESEARCH/hypernatt/blob/main/docs/publication/latest.json)
+- [Audit repository](https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public/blob/main/publication/latest.json)
 
-1. Open the official Hyperliquid Vault Explorer:  
-   [`https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
-2. Independently verify:
-   - **Vault Contract Address**: `0x04e2eb302fe9ff23a9d1f2455084af624737a6d8`
-   - **Non-Custodial Balance**: Live USDC equity deposited by sovereign participants.
-   - **Execution History**: Transparent on-chain fills and 0.00% liquidation record.
-   - **Direct Withdrawal**: Any depositor can redeem shares directly via Hyperliquid consensus.
+Compare the `sha256` values and content. For integrity verification, the digest
+is SHA-256 of the `data` object serialized with sorted keys, ASCII JSON escapes,
+compact separators and a final newline. It is not the hash of the whole bundle.
+The corresponding immutable snapshot is stored under `snapshots/<sha256>.json`.
 
----
+A matching digest proves content integrity. It does not prove the scientific
+conclusion, an audit result, fund safety or a profitable strategy.
 
-## 2. Cryptographic Proof of Process Audit Ledger
-
-To independently verify that 100% of historical research claims and milestones on [hypernatt.com/audit](https://hypernatt.com/audit) match immutable cryptographic source digests:
+## Historical notes
 
 ```bash
-# Clone the dedicated cryptographic audit repository
-git clone https://github.com/hypernatt/hypernatt-audit-public.git
+git clone https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public.git
 cd hypernatt-audit-public
-
-# Run the zero-dependency verification script
-node scripts/verify_ledger.mjs
 ```
 
-### Expected Output
-```text
-Schema:             hypernatt.audit.ledger.v1
-Vault Address:      0x04e2eb302fe9ff23a9d1f2455084af624737a6d8
-Total Claims:       18
+For each entry in `ledger.json`, read `source_path`, calculate SHA-256 over the
+file's original bytes, and compare it with `source_sha256`. Do not normalize
+line endings before hashing. GitHub's raw file at an immutable commit provides
+the original bytes when a local checkout transforms line endings.
 
-✅ [PASS] Note 000 | SHA-256: 4fbcbfceaa...
-✅ [PASS] Note 645 | SHA-256: c537fd22ce...
-...
-🎉 VERIFICATION SUCCESSFUL: 18/18 notes cryptographically verified.
-```
+The ledger, notes and methodology describe their dated historical context.
+Old addresses, observations and backtest numbers are not current deposit
+instructions. A list of matching hashes is not a certification of every claim.
 
----
+## Contract and transaction verification
 
-## 3. Terminal MCP Protocol Verification
+Use [the vault page](https://hypernatt.com/vault) and
+[official documentation](https://hypernatt.com/docs) to identify the current
+network, asset and contract. HyperEVM contract state and HyperCore trading state
+must be reconciled. Check receipts, deployed code, permissions and share
+accounting; a screenshot or a displayed balance alone is insufficient.
 
-External autonomous AI agents can inspect live market structure context (forced-order liquidation maps) via the open-source Model Context Protocol server:
-
-- **Repository**: [https://github.com/hypernatt/hypernatt-terminal](https://github.com/hypernatt/hypernatt-terminal)
-- **Live Endpoint**: `https://hypernatt.com/mcp/protocol`
+The capital circuit remains under qualification. No new deposit is required
+to read the published evidence. Do not use a historical native vault link as
+the destination for a new HyperEVM deposit.

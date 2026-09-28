@@ -1,37 +1,55 @@
-# System Architecture — HyperNatt Super App
+# HyperNatt architecture
 
-HyperNatt is a modular, high-availability decentralized finance platform uniting multi-chain connectivity, automated L1 vault execution, and agent-to-agent protocols.
+Updated 29 September 2026. The architecture below distinguishes application
+services from the vault capital circuit, which is still being qualified.
 
----
+## Application boundaries
 
-## 1. High-Level Architecture
+The web application and PWA provide the dashboard, vault interface, guided mode
+and wallet connection. Wallet signatures remain explicit user actions.
 
-```mermaid
-graph TD
-    User["👤 Depositor / User"]
-    Frontend["💻 Next.js 14 PWA (Web & Mobile)"]
-    LiFi["🔄 NattSwap (Li.Fi DEX Aggregator)"]
-    NattChat["🤖 NattChat AI Concierge"]
-    NattShield["🛡️ NattShield Fiscal Engine"]
-    HL_Vault["🔒 Hyperliquid L1 Vault (0x04e2eb...)"]
-    Remora["⚡ Remora Engine (Private Execution Daemon)"]
-    MCP["🔌 HyperNatt Terminal (MCP Server & x402)"]
+Authentication and beta admission, vault accounting, swaps and rewards,
+community messaging, NattChat and fiscal reporting have separate responsibilities.
+The frontend consumes their interfaces; it is not the authority that decides
+whether funds were received or a reward was earned.
 
-    User -->|Connect / Trade / Swap| Frontend
-    Frontend --> LiFi
-    Frontend --> NattChat
-    Frontend --> NattShield
-    Frontend -->|Non-Custodial Deposit / Withdraw| HL_Vault
-    Remora -->|Signed Orders Only (Zero Withdraw Rights)| HL_Vault
-    MCP -->|Forced-Order Maps & Telemetry| User
-```
+NattSwap requests LI.FI routes and follows transaction settlement. The network
+and asset pair determine the route; one quote does not imply every chain or
+token is supported. A cross-chain source transaction is not by itself proof of
+destination settlement or entitlement to NATT.
 
----
+NattChat and human messaging are distinct services. A private fiscal report
+is not automatically included in the assistant's account context.
 
-## 2. Technology Stack
+## HyperEVM and HyperCore
 
-- **Frontend & PWA**: Next.js 14, React 18, TypeScript, Tailwind CSS, wagmi / viem, Lucide icons.
-- **Smart Contracts & Execution**: Hyperliquid Layer 1 (Rust consensus, native orderbook), Arbitrum, Base Mainnet.
-- **Cross-Chain Bridging**: Li.Fi API & Smart Routing.
-- **AI Infrastructure**: Multilingual streaming LLM orchestration, voice synthesis and speech recognition.
-- **Terminal & Developer Protocol**: Model Context Protocol (MCP v2.7.0), x402 micro-payments on Base and Solana.
+HyperEVM is the EVM environment on chain 999. The vault contracts and share
+token interactions belong there. HyperCore is the exchange and native accounting
+environment. Moving assets between them and valuing open positions requires
+explicit reconciliation; a contract's EVM token balance alone is not its complete
+trading net asset value.
+
+The new circuit must account for deposits, shares, realized and unrealized
+results, liabilities, fees, in-flight transfers and redemption liquidity.
+It must prevent repeated settlement or claiming the same entitlement twice.
+These are qualification requirements, not a claim that every production path
+has already passed them.
+
+The execution engine connects through separately controlled permissions.
+The new capital circuit and engine activation are distinct delivery steps.
+The old native vault's permission model cannot be copied as a guarantee for
+the new contracts.
+
+## Economic and public interfaces
+
+Vault share tokens represent a deposit position; they are distinct from NATT.
+Vault NATT rewards remain disabled. Swap-earned NATT and a separately funded
+staking pool require their own settlement and claim accounting.
+
+HyperNatt Terminal is a separately maintained public MCP integration. Its
+[repository](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal) describes
+its current tools and payment rails. It does not provide custody of vault funds.
+
+The publication process distributes committed, selected evidence to the public
+repositories and Proof of Process. Historical notes stay immutable. Health
+indicates delivery status and a matched paper identity, not profitability.
