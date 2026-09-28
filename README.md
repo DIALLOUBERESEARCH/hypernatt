@@ -12,7 +12,7 @@ Current paper deployment and publication health are shown on Proof of Process.
 <!-- PUBLICATION:END -->
 
 
-[![CI](https://img.shields.io/badge/CI-passing-brightgreen)](https://github.com/hypernatt/hypernatt)
+[![CI](https://github.com/DIALLOUBERESEARCH/hypernatt/actions/workflows/ci.yml/badge.svg)](https://github.com/hypernatt/hypernatt)
 [![Hyperliquid L1](https://img.shields.io/badge/Hyperliquid%20L1-Native%20Vault-10b981)](https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8)
 [![Security](https://img.shields.io/badge/Security-100%25%20Non--Custodial-success)](./SECURITY.md)
 [![MCP Terminal](https://img.shields.io/badge/MCP%20Terminal-v2.7.0-purple)](https://github.com/hypernatt/hypernatt-terminal)
