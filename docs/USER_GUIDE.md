@@ -19,6 +19,9 @@ requests; an asset approval or transfer is different from signing in.
 Closed beta provides one founder master key and 99 single-use invitations,
 for at most 100 participants. Redeem only through the official application.
 Admission does not replace the vault's transaction and permission checks.
+The admission registry is deployed and verified; the vault admission interface
+remains closed while the linked vault is qualified. No new invitation is needed
+because of this registry deployment, and holding a key is not a funded deposit.
 
 ## Deposits and shares
 

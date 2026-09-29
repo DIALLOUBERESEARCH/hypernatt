@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-29T16:33:52Z**.
+Latest committed activity: **2026-09-29T16:41:57Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -38,6 +38,12 @@ Closed beta is capped at **100 participants**: one founder master key and
 99 invitations redeemable once. An invitation controls admission; it does not
 grant access to another user's funds. The public counter is intended to count
 qualified active depositors, not issued keys or wallet connections.
+
+The beta admission registry is deployed on HyperEVM, with source and deployed
+bytecode verified. Its authentication service is connected and the invitation
+cohort is preserved. Admission through the vault interface remains closed until
+the linked vault and complete capital circuit are qualified. This deployment
+does not represent 100 admitted or funded accounts.
 
 ## NATT and fees
 
