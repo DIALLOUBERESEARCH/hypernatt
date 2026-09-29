@@ -12,18 +12,9 @@ Current paper deployment and publication health are shown on Proof of Process.
 <!-- PUBLICATION:END -->
 
 
-<p align="center">
-  <a href="https://hypernatt.com">
-    <img src="https://hypernatt.com/icons/hypernatt-logo.svg" alt="HyperNatt" width="96" height="96" />
-  </a>
-</p>
+![HyperNatt](https://hypernatt.com/icons/hypernatt-logo.svg)
 
-<p align="center">
-  <a href="https://hypernatt.com/app">Application</a> · 
-  <a href="https://hypernatt.com/vault">Vault</a> ·
-  <a href="https://hypernatt.com/docs">Documentation</a> ·
-  <a href="https://hypernatt.com/audit">Proof of Process</a>
-</p>
+[Application](https://hypernatt.com/app) · [Vault](https://hypernatt.com/vault) · [Documentation](https://hypernatt.com/docs) · [Proof of Process](https://hypernatt.com/audit)
 
 HyperNatt brings together a vault interface, NattSwap, NattChat, community
 messaging and NattShield. This public repository contains product documentation
