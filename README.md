@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-29T18:48:11Z**.
+Latest committed activity: **2026-09-29T19:00:58Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -26,9 +26,9 @@ Current paper deployment and publication health are shown on Proof of Process.
 </p>
 
 <p align="center">
-  <a href="https://github.com/DIALLOUBERESEARCH/hypernatt"><img src="https://github.com/DIALLOUBERESEARCH/hypernatt/actions/workflows/ci.yml/badge.svg?logo=github-actions&logoColor=white" alt="CI" /></a>
-  <a href="https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8"><img src="https://img.shields.io/badge/Hyperliquid%20L1-Native%20Vault-10b981" alt="Hyperliquid L1 Vault" /></a>
-  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-100%25%20Non--Custodial-success" alt="Security" /></a>
+  <a href="https://github.com/DIALLOUBERESEARCH/hypernatt/actions"><img src="https://img.shields.io/badge/CI-Public%20checks-blue?logo=github-actions&logoColor=white" alt="CI checks" /></a>
+  <a href="https://hypernatt.com/vault"><img src="https://img.shields.io/badge/HyperEVM-Vault-10b981" alt="HyperNatt Vault" /></a>
+  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Documentation-success" alt="Security documentation" /></a>
   <a href="https://hypernatt.com/audit"><img src="https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6" alt="Proof of Process" /></a>
   <a href="https://github.com/DIALLOUBERESEARCH/hypernatt-terminal"><img src="https://img.shields.io/badge/MCP%20Terminal-v2.9.1-purple" alt="MCP Terminal" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License" /></a>
