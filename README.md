@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-29T11:36:00Z**.
+Latest committed activity: **2026-09-29T11:43:03Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -48,12 +48,11 @@ qualified active depositors, not issued keys or wallet connections.
   entitlement and a successful claim are separate stages; a swap confirmation
   alone is not proof that NATT has been received. Swap reward issuance is not
   activated yet; the pathway described here is the intended beta design.
-- Staking uses NATT and a separately funded reward pool. Availability and any
-  displayed yield must follow the deployed contracts and actual funding.
+- The NATT staking pool is deployed on HyperEVM and its source has been verified
+  against the deployed bytecode. USDC reward funding has not started. A deployed
+  pool does not establish an APR or activate swap reward issuance.
 - The approved vault commission is **20% of eligible winning-trade profit**, or
   **18% with an accepted referral**. This is not a deduction from deposited capital.
-- The approved Hyperliquid builder fee is **0.002%** of applicable trading
-  notional. It is separate from the profit commission and swap fees.
 - There is **no automatic buyback or burn promise**. Voluntary burning is not a
   source of yield and does not replace the emission cap.
 

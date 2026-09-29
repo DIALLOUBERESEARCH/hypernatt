@@ -55,8 +55,9 @@ failed swap.
 Vault trading rewards in NATT are disabled until further notice. The beta reward
 pathway is confirmed swaps. A swap receipt, a reward entitlement and a completed
 NATT claim are different things. Check the amount actually credited before
-staking. Swap reward issuance is not activated yet. Staking rewards depend on
-the pool's qualified contracts and real funding, not a promised APR.
+staking. Swap reward issuance is not activated yet. The staking pool is deployed
+on HyperEVM with verified source code; USDC reward funding has not started.
+Staking rewards depend on actual funding, not a promised APR.
 
 ## Community, fiscal assistance and spending
 
