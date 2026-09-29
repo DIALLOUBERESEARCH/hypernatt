@@ -22,6 +22,10 @@ Admission does not replace the vault's transaction and permission checks.
 
 ## Deposits and shares
 
+New deposits are not yet open. Beta admission and the new capital circuit must
+be qualified before participation begins. Existing transaction confirmations
+and withdrawals remain separate from new deposit availability.
+
 The new vault path uses **HyperEVM, chain 999**, with HyperCore integration.
 Check the current contract and exact USDC asset displayed on the vault page.
 Keep enough native gas for transactions. Review the amount and any approval
@@ -51,7 +55,8 @@ failed swap.
 Vault trading rewards in NATT are disabled until further notice. The beta reward
 pathway is confirmed swaps. A swap receipt, a reward entitlement and a completed
 NATT claim are different things. Check the amount actually credited before
-staking. Staking rewards depend on the pool's real funding, not a promised APR.
+staking. Swap reward issuance is not activated yet. Staking rewards depend on
+the pool's qualified contracts and real funding, not a promised APR.
 
 ## Community, fiscal assistance and spending
 
@@ -61,9 +66,10 @@ Check recipients and amounts separately before approving a tip.
 The referral design reduces the eligible vault profit commission from 20% to
 18% when the referral is accepted. It does not guarantee profits.
 
-NattShield assists with fiscal records. Country rules and the new activity
-ledger are still being aligned; verify the reporting year and local rules.
-An estimate or PDF does not replace a tax filing or professional review.
+NattShield currently organizes factual annual records and PDFs. Personal tax
+calculations and the complete new activity ledger remain under qualification;
+verify the reporting year and local rules. A PDF does not replace a tax filing
+or professional review.
 
 For RedotPay, check supported assets and deposit networks in RedotPay itself.
 Do not send HyperEVM assets to an address simply because it looks compatible.

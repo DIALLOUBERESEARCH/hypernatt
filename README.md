@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-29T05:31:59Z**.
+Latest committed activity: **2026-09-29T05:39:35Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -31,7 +31,8 @@ the network, asset, contract and transaction before signing.
 The new capital transfer, accounting and withdrawal circuit is still undergoing
 qualification. A deployed contract or visible deposit button does not establish
 that the complete system is ready for public deposits. Engine integration is
-a separate delivery milestone.
+a separate delivery milestone. New deposits are not yet open to public
+participation; the beta admission and new capital circuit must be qualified first.
 
 Closed beta is capped at **100 participants**: one founder master key and
 99 invitations redeemable once. An invitation controls admission; it does not
@@ -45,7 +46,8 @@ qualified active depositors, not issued keys or wallet connections.
 - **Vault trading rewards in NATT remain disabled until further notice.** The
   beta reward pathway is swap activity. Settlement verification, reward
   entitlement and a successful claim are separate stages; a swap confirmation
-  alone is not proof that NATT has been received.
+  alone is not proof that NATT has been received. Swap reward issuance is not
+  activated yet; the pathway described here is the intended beta design.
 - Staking uses NATT and a separately funded reward pool. Availability and any
   displayed yield must follow the deployed contracts and actual funding.
 - The approved vault commission is **20% of eligible winning-trade profit**, or
@@ -65,9 +67,10 @@ The guided mode explains wallet setup, deposits, withdrawals, swaps, NATT,
 community features and spending routes. Never enter a wallet recovery phrase
 into HyperNatt, a chat or a support form.
 
-NattShield provides fiscal assistance. Country rules and annual reporting are
-being aligned with the new infrastructure. Its estimates and PDFs are not tax
-certifications or proof of compliance. NattChat does not automatically receive
+NattShield currently provides factual annual records and PDFs. Personal tax
+calculations and the complete new activity ledger remain under qualification;
+the report does not present an unverified tax amount as money safe to spend.
+It is not a tax filing or certification. NattChat does not automatically receive
 the user's NattShield report.
 
 ## Read more

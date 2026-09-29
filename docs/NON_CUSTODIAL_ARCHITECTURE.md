@@ -3,6 +3,9 @@
 The new vault architecture uses HyperEVM contracts with HyperCore integration.
 The complete capital and withdrawal circuit remains under qualification.
 This document supersedes the former native-vault description for new deposits.
+New deposits are not yet open to participation. Availability in the application
+is distinct from contract permissions and does not certify an onchain admission
+control. Existing withdrawals and transaction reconciliation remain available.
 
 ## What a deposit represents
 
