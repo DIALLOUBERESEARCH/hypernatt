@@ -16,17 +16,19 @@ can mean losing access to funds.
 
 Connect the wallet through the application. Review connection and signing
 requests; an asset approval or transfer is different from signing in.
-Closed beta provides one founder master key and 99 single-use invitations,
-for at most 100 participants. Redeem only through the official application.
-Admission does not replace the vault's transaction and permission checks.
-The admission registry is deployed and verified; the vault admission interface
-remains closed while the linked vault is qualified. No new invitation is needed
-because of this registry deployment, and holding a key is not a funded deposit.
+Closed beta has 100 places. Use Play or Deposit to open the key form directly.
+Connect your wallet, enter your assigned key, then review the sign-in request
+and admission transaction in your wallet. Activation permanently links that
+invitation to the wallet. Wait for confirmation; a recognized wallet does not
+need to enter its key again. Use only the official application.
+The admission registry is deployed and verified. Admission activates beta access;
+new vault deposits remain closed while the capital circuit is qualified.
+Holding a key or activating access is not a funded deposit.
 
 ## Deposits and shares
 
-New deposits are not yet open. Beta admission and the new capital circuit must
-be qualified before participation begins. Existing transaction confirmations
+New deposits are not yet open. The new capital circuit must be qualified
+before funds can be deposited. Existing transaction confirmations
 and withdrawals remain separate from new deposit availability.
 
 The new vault path uses **HyperEVM, chain 999**, with HyperCore integration.
@@ -67,7 +69,8 @@ Staking rewards depend on actual funding, not a promised APR.
 NattChat is the assistant. Community chat and direct messages connect people.
 Check recipients and amounts separately before approving a tip.
 
-Share the link assigned in the referral window. A friend opens it and connects
+Opening the referral window shows your assigned link without another wallet
+connection or signature. Copy or share that link. A friend opens it and connects
 their wallet; registration follows that authenticated connection automatically.
 There is no sponsor code to type or additional acceptance window. Existing
 referral associations remain unchanged.
