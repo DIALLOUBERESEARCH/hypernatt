@@ -67,6 +67,11 @@ Staking rewards depend on actual funding, not a promised APR.
 NattChat is the assistant. Community chat and direct messages connect people.
 Check recipients and amounts separately before approving a tip.
 
+Share the link assigned in the referral window. A friend opens it and connects
+their wallet; registration follows that authenticated connection automatically.
+There is no sponsor code to type or additional acceptance window. Existing
+referral associations remain unchanged.
+
 The referral design reduces the eligible vault profit commission from 20% to
 18% when the referral is accepted. It does not guarantee profits.
 
