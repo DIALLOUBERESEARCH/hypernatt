@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-30T07:47:41Z**.
+Latest committed activity: **2026-09-30T13:51:15Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -96,6 +96,11 @@ calculations and the complete new activity ledger remain under qualification;
 the report does not present an unverified tax amount as money safe to spend.
 It is not a tax filing or certification. NattChat does not automatically receive
 the user's NattShield report.
+
+The current year opens automatically and earlier reports remain available under
+Documents. Using HyperNatt does not require reporting a filing or payment status.
+Users remain responsible for filings and payments required by law; changing years
+does not erase records or settle tax.
 
 ## Read more
 

@@ -83,6 +83,13 @@ calculations and the complete new activity ledger remain under qualification;
 verify the reporting year and local rules. A PDF does not replace a tax filing
 or professional review.
 
+The NattShield window opens on the current year. Select an earlier year under
+Documents to view and download its report. Historical activity is grouped by UTC
+calendar year; opening a new year does not erase earlier records. No filing or
+payment confirmation is required to use HyperNatt or access another year.
+Users remain responsible for legally required filings and payments. Changing
+the displayed year does not file a return, pay tax or cancel an obligation.
+
 For RedotPay, check supported assets and deposit networks in RedotPay itself.
 Do not send HyperEVM assets to an address simply because it looks compatible.
 An Arbitrum route can be used only when both the token and network are supported
