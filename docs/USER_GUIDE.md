@@ -1,6 +1,6 @@
 # HyperNatt user guide
 
-Updated 29 September 2026. Start at [hypernatt.com](https://hypernatt.com) and
+Updated 1 October 2026. Start at [hypernatt.com](https://hypernatt.com) and
 enable guided mode for explanations inside the application. The
 [official documentation](https://hypernatt.com/docs) provides eight languages.
 New vault and reward paths remain under qualification; follow their availability
@@ -85,6 +85,13 @@ NattShield currently organizes factual annual records and PDFs. Personal tax
 calculations and the complete new activity ledger remain under qualification;
 verify the reporting year and local rules. A PDF does not replace a tax filing
 or professional review.
+
+Annual PDFs also include available archived USDC tips sent or received by the
+connected wallet in the selected UTC year. These entries retain exact amounts,
+transaction and block references, and the sender's recorded HYPE fees. They are
+supporting records, not automatically taxable income. The report states when
+these archives are unavailable or have not been revalidated on the chain.
+Older tips without these exact records are not reconstructed from rounded values.
 
 The official documentation separates country tax references from personal
 calculations. A statutory rate only applies to its stated income category and
