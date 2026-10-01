@@ -55,6 +55,17 @@ const forbiddenPatterns = [
     { name: 'Deprecated NDAT token reference', regex: /\bNDAT\b/ }
 ];
 
+// These are independently verified public transaction/runtime fingerprints,
+// permitted only in the document that identifies this mainnet deployment.
+const PUBLIC_DEPLOYMENT_DOCUMENT = 'docs/NON_CUSTODIAL_ARCHITECTURE.md';
+const PUBLIC_DEPLOYMENT_HASHES = new Set([
+    '0x6fb1ce4dab76d82e16aee71763518c22b2624f77ce5bab263cc5abc461f0eed5',
+    '0x6fb7c7a6d817c2dfa1b2a6a61cb6c63457ccd42686c3431a252ffe4c74a80195',
+    '0x5e4f2814719d06f24be23a80210ff8f9650972b63172049227ef98a48d3fc975',
+    '0x0fe4dffee76756582d20d9170055d6974e5572c38ef7db30cddbd9f0f763c139',
+    '0x6460129351994818eb4575f85c107bd143ad7b0add4813d0ee50385e9db6b362'
+]);
+
 function scanDir(dir) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const entry of entries) {
@@ -65,7 +76,11 @@ function scanDir(dir) {
         } else if (entry.isFile()) {
             const content = fs.readFileSync(fullPath, 'utf8');
             for (const { name, regex } of forbiddenPatterns) {
-                const found = regex.exec(content);
+                const relative = path.relative('.', fullPath).split(path.sep).join('/');
+                const found = name === 'Private Key pattern'
+                    ? [...content.matchAll(new RegExp(regex.source, 'g'))].some(match =>
+                        relative !== PUBLIC_DEPLOYMENT_DOCUMENT || !PUBLIC_DEPLOYMENT_HASHES.has(match[0]))
+                    : regex.exec(content);
                 assert(!found, `Security Leak Guard failed in ${fullPath}: detected ${name}`);
             }
         }
