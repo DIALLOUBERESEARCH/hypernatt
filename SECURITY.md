@@ -1,6 +1,6 @@
 # HyperNatt security and responsible disclosure
 
-Updated 29 September 2026. This document describes security boundaries and
+Updated 1 October 2026. This document describes security boundaries and
 reporting channels. It is not an independent audit certificate.
 
 ## Official entry points
@@ -32,6 +32,11 @@ withdrawal, immunity to liquidation or impossibility of loss.
 The capital circuit and engine integration are still being qualified. Deployment
 alone is not approval for public deposits. Verify the deployed code, roles,
 permissions, upgrade controls and accounting before relying on an integration.
+
+The replacement mainnet vault's creation receipt, deployed code and initial
+roles have been verified. It was created paused. Native permissions and the
+complete capital circuit are separate qualification steps; an EVM receipt
+does not establish the completion of a HyperCore transfer.
 
 ## Evidence and personal information
 

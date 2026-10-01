@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-10-01T18:12:01Z**.
+Latest committed activity: **2026-10-01T18:15:53Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -39,12 +39,18 @@ messaging and NattShield. This public repository contains product documentation
 and verification material. The execution engine and application implementation
 remain private.
 
-## Current rollout — 29 September 2026
+## Current rollout — 1 October 2026
 
 The vault is being migrated to smart contracts on **HyperEVM (chain 999)** with
 execution and accounting on **HyperCore**. The historical native vault is not
 the destination for this new deposit flow. Use the current vault page to inspect
 the network, asset, contract and transaction before signing.
+
+The replacement vault and its control and reader contracts are deployed on
+mainnet. Their creation receipt, deployed code and initial roles were verified;
+the vault was created paused. See the [deployment identities](docs/NON_CUSTODIAL_ARCHITECTURE.md#verified-deployment--1-october-2026).
+Deployment verification is separate from activating native permissions and
+qualifying the complete deposit and withdrawal circuit.
 
 The new capital transfer, accounting and withdrawal circuit is still undergoing
 qualification. A deployed contract or visible deposit button does not establish

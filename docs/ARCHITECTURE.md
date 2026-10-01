@@ -1,6 +1,6 @@
 # HyperNatt architecture
 
-Updated 29 September 2026. The architecture below distinguishes application
+Updated 1 October 2026. The architecture below distinguishes application
 services from the vault capital circuit, which is still being qualified.
 
 ## Application boundaries
@@ -28,6 +28,12 @@ token interactions belong there. HyperCore is the exchange and native accounting
 environment. Moving assets between them and valuing open positions requires
 explicit reconciliation; a contract's EVM token balance alone is not its complete
 trading net asset value.
+
+The replacement vault, control and reader contracts are deployed on mainnet;
+their creation receipt, exact deployed code and initial roles were verified.
+The application now identifies that replacement vault. The initial state is
+paused, with no shares or capital. Native permissions, the accounting worker
+and engine activation remain separate gates.
 
 The new circuit must account for deposits, shares, realized and unrealized
 results, liabilities, fees, in-flight transfers and redemption liquidity.
