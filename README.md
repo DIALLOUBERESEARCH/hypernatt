@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-10-01T09:19:08Z**.
+Latest committed activity: **2026-10-01T09:21:10Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -19,14 +19,14 @@ Current paper deployment and publication health are shown on Proof of Process.
 </p>
 
 <p align="center">
-  <a href="https://hypernatt.com/app">Application</a> · 
+  <a href="https://hypernatt.com/app">Application</a> ·
   <a href="https://hypernatt.com/vault">Vault</a> ·
   <a href="https://hypernatt.com/docs">Documentation</a> ·
   <a href="https://hypernatt.com/audit">Proof of Process</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/DIALLOUBERESEARCH/hypernatt/actions"><img src="https://img.shields.io/badge/CI-Public%20checks-blue?logo=github-actions&logoColor=white" alt="CI checks" /></a>
+  <a href="https://github.com/DIALLOUBERESEARCH/hypernatt/actions/workflows/ci.yml"><img src="https://github.com/DIALLOUBERESEARCH/hypernatt/actions/workflows/ci.yml/badge.svg" alt="CI checks" /></a>
   <a href="https://hypernatt.com/vault"><img src="https://img.shields.io/badge/HyperEVM-Vault-10b981" alt="HyperNatt Vault" /></a>
   <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Documentation-success" alt="Security documentation" /></a>
   <a href="https://hypernatt.com/audit"><img src="https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6" alt="Proof of Process" /></a>
@@ -53,8 +53,8 @@ a separate delivery milestone. New deposits are not yet open to public
 participation; the new capital circuit must be qualified first.
 
 Closed beta is capped at **100 participants**. An assigned key controls admission; it does not
-grant access to another user's funds. The public counter is intended to count
-qualified active depositors, not issued keys or wallet connections.
+grant access to another user's funds. The key form displays admitted wallets as
+0/100 through 100/100. Issued keys and ordinary wallet connections do not count.
 
 The beta admission registry is deployed on HyperEVM, with source and deployed
 bytecode verified. Its authentication service is connected and the invitation
