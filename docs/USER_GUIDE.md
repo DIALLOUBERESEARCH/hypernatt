@@ -89,8 +89,10 @@ or professional review.
 Annual PDFs also include available archived USDC tips sent or received by the
 connected wallet in the selected UTC year. These entries retain exact amounts,
 transaction and block references, and the sender's recorded HYPE fees. They are
-supporting records, not automatically taxable income. The report states when
-these archives are unavailable or have not been revalidated on the chain.
+supporting records, not automatically taxable income. The report revalidates
+available records against finalized HyperEVM receipts and includes the checkpoint
+references. If this verification is incomplete or unavailable, the report states
+that these transfers are not covered; it does not substitute unchecked records.
 Older tips without these exact records are not reconstructed from rounded values.
 
 The official documentation separates country tax references from personal
