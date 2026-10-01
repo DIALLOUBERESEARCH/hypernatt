@@ -17,6 +17,9 @@ can mean losing access to funds.
 Connect the wallet through the application. Review connection and signing
 requests; an asset approval or transfer is different from signing in.
 Closed beta has 100 places. Use Play or Deposit to open the key form directly.
+The counter in this window shows confirmed beta activations out of 100 and
+refreshes automatically while it is visible. A reserved invitation alone does
+not increase this count; reconnecting or depositing does not count twice.
 Connect your wallet, enter your assigned key, then review the sign-in request
 and admission transaction in your wallet. Activation permanently links that
 invitation to the wallet. Wait for confirmation; a recognized wallet does not
