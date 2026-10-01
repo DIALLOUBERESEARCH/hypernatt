@@ -66,7 +66,7 @@ function scanDir(dir) {
             const content = fs.readFileSync(fullPath, 'utf8');
             for (const { name, regex } of forbiddenPatterns) {
                 const found = regex.exec(content);
-                assert(!found, `Security Leak Guard failed in ${fullPath}: detected ${name} (${found ? found[0] : ''})`);
+                assert(!found, `Security Leak Guard failed in ${fullPath}: detected ${name}`);
             }
         }
     }
@@ -74,12 +74,16 @@ function scanDir(dir) {
 scanDir('.');
 console.log('   ✓ Zero private keys, zero sensitive env vars, zero proprietary engine leaks, zero deprecated tokens');
 
-// 4. On-Chain Vault Contract Address Format & Integrity
-console.log('\n4. Verifying on-chain vault contract format & consensus guarantees...');
-const VAULT_ADDRESS = '0x04e2eb302fe9ff23a9d1f2455084af624737a6d8';
-assert(/^0x[0-9a-fA-F]{40}$/.test(VAULT_ADDRESS), 'Vault address is not a valid 20-byte hex address');
+// 4. Current public verification entry points. This is not on-chain validation.
+console.log('\n4. Verifying current documentation and verification entry points...');
 const readme = fs.readFileSync('README.md', 'utf8');
-assert(readme.includes(VAULT_ADDRESS), 'README does not reference the verified vault address');
-console.log(`   ✓ Vault contract address verified: ${VAULT_ADDRESS}`);
+for (const url of ['https://hypernatt.com/app', 'https://hypernatt.com/vault',
+    'https://hypernatt.com/docs', 'https://hypernatt.com/audit']) {
+    assert(readme.includes(url), `Missing official verification entry point: ${url}`);
+}
+assert(readme.includes('HyperEVM') && readme.includes('chain 999') && readme.includes('HyperCore'),
+    'README must distinguish HyperEVM chain 999 and HyperCore');
+assert(readme.includes('New deposits are not yet open'), 'Missing current deposit availability');
+console.log('   ✓ Official entry points and current rollout are documented; deployed code and receipts require separate verification');
 
 console.log('\n=== All CI Integrity Gates Passed Successfully ===\n');
