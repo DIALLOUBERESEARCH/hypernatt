@@ -83,6 +83,12 @@ calculations and the complete new activity ledger remain under qualification;
 verify the reporting year and local rules. A PDF does not replace a tax filing
 or professional review.
 
+The official documentation separates country tax references from personal
+calculations. A statutory rate only applies to its stated income category and
+tax year; it is not a flat tax on all vault, swap, staking or tip activity.
+Consult the [country references](https://hypernatt.com/en/docs), their official
+sources and the coverage of your report before preparing a return.
+
 The NattShield window opens on the current year. Select an earlier year under
 Documents to view and download its report. Historical activity is grouped by UTC
 calendar year; opening a new year does not erase earlier records. No filing or
