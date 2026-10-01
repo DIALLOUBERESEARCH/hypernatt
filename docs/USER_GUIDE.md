@@ -95,6 +95,14 @@ references. If this verification is incomplete or unavailable, the report states
 that these transfers are not covered; it does not substitute unchecked records.
 Older tips without these exact records are not reconstructed from rounded values.
 
+Annual PDFs also include verified NATT claims and staking operations from the
+deployed contracts. They distinguish NATT deposited or withdrawn as principal
+from USDC staking rewards, and retain exact quantities, dates and transaction
+references. They do not invent a NATT price or classify an operation as taxable.
+The reader checks finalized receipts and matching token transfers. When its
+bounded verification cannot cover the records, the PDF states that this section
+is unavailable rather than presenting an incomplete history as complete.
+
 The official documentation separates country tax references from personal
 calculations. A statutory rate only applies to its stated income category and
 tax year; it is not a flat tax on all vault, swap, staking or tip activity.
