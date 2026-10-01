@@ -121,3 +121,11 @@ Do not send HyperEVM assets to an address simply because it looks compatible.
 An Arbitrum route can be used only when both the token and network are supported
 at the receiving end. Account eligibility, card purchase and Apple Pay or
 Google Pay availability depend on the provider and country.
+
+Annual PDFs can also include archived and revalidated Across USDC transfers
+from HyperEVM to Arbitrum. This section retains exact sent, protocol fee and
+received amounts, dates, transaction references and finalized checkpoints on
+both networks. It covers only this qualified route and available verified
+records; it does not infer network gas, NATT rewards or personal tax treatment.
+When the observation service is disabled or verification is incomplete, this
+section is marked unavailable, not presented as proof of no swap activity.
