@@ -86,6 +86,14 @@ calculations and the complete new activity ledger remain under qualification;
 verify the reporting year and local rules. A PDF does not replace a tax filing
 or professional review.
 
+The current vault summary and PDF use finalized personal HyperCore book events.
+Deposits and withdrawals are capital movements; cycle profit and performance
+fees are recorded separately. A booked fee does not prove cash payment.
+Previous vault activity remains a separate historical record and is not added
+to the new vault summary. If on-chain verification is unavailable, the report
+states that vault activity is not covered. Annual selection needs no filing or
+payment confirmation and does not erase earlier records.
+
 Annual PDFs also include available archived USDC tips sent or received by the
 connected wallet in the selected UTC year. These entries retain exact amounts,
 transaction and block references, and the sender's recorded HYPE fees. They are
