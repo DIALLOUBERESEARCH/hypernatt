@@ -60,10 +60,10 @@ transaction in your wallet. On mobile, return to HyperNatt after signing and
 allow it to reconcile the transaction; a pending bridge is not necessarily a
 failed swap.
 
-Vault trading rewards in NATT are disabled until further notice. The beta reward
-pathway is confirmed swaps. A swap receipt, a reward entitlement and a completed
-NATT claim are different things. Check the amount actually credited before
-staking. Swap reward issuance is not activated yet. The staking pool is deployed
+NATT issuance and rewards from vault trades, swaps and RedotPay top-ups are
+disabled throughout beta. No beta activity creates a credit or reservation for
+later NATT distribution. Their common launch is planned with the public vault
+after parameter approval and explicit activation. The staking pool is deployed
 on HyperEVM with verified source code; USDC reward funding has not started.
 Staking rewards depend on actual funding, not a promised APR.
 
@@ -137,3 +137,10 @@ both networks. It covers only this qualified route and available verified
 records; it does not infer network gas, NATT rewards or personal tax treatment.
 When the observation service is disabled or verification is incomplete, this
 section is marked unavailable, not presented as proof of no swap activity.
+
+## NATT launch policy — 2 October 2026
+
+NATT rewards are disabled for vault trades, NattSwap and RedotPay top-ups
+throughout beta. No beta activity creates a deferred NATT entitlement. The
+programme will launch with the public vault after approval of the parameters
+and explicit activation. Swaps and top-ups remain available without NATT rewards.

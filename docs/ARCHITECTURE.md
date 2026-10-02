@@ -49,8 +49,11 @@ the new contracts.
 ## Economic and public interfaces
 
 Vault share tokens represent a deposit position; they are distinct from NATT.
-Vault NATT rewards remain disabled. Swap-earned NATT and a separately funded
-staking pool require their own settlement and claim accounting.
+All NATT issuance and reward allocation remain disabled during beta, including
+vault trades, swaps and RedotPay top-ups. No beta NATT entitlement is reserved
+for later distribution. The programme is planned to launch together with the
+public vault after explicit parameter approval and activation. A separately
+funded staking pool requires its own settlement and claim accounting.
 
 HyperNatt Terminal is a separately maintained public MCP integration. Its
 [repository](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal) describes

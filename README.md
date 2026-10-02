@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-10-02T20:17:25Z**.
+Latest committed activity: **2026-10-02T21:39:05Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -74,11 +74,13 @@ represent 100 admitted or funded accounts.
 
 - NATT has a maximum supply of **21 million**, with **18 decimals** and a halving
   schedule. Emission and allocation limits are distinct from the token's price.
-- **Vault trading rewards in NATT remain disabled until further notice.** The
-  beta reward pathway is swap activity. Settlement verification, reward
-  entitlement and a successful claim are separate stages; a swap confirmation
-  alone is not proof that NATT has been received. Swap reward issuance is not
-  activated yet; the pathway described here is the intended beta design.
+- **All NATT issuance and rewards remain disabled throughout beta**, including
+  vault trades, NattSwap and RedotPay top-ups. Beta activity creates no NATT
+  credit, reservation or retroactive entitlement. The programme will launch
+  together with the public vault, after parameters are approved and published
+  and issuance is explicitly activated. Swaps and top-ups remain available.
+  The existing 21-million lifetime cap and halving calendar are unchanged.
+  No initial coefficient or bonus has been decided.
 - The NATT staking pool is deployed on HyperEVM and its source has been verified
   against the deployed bytecode. USDC reward funding has not started. A deployed
   pool does not establish an APR or activate swap reward issuance.
