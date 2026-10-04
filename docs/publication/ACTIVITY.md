@@ -337,7 +337,7 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Committed activity by UTC day
 
-- 2026-10-04: 15 commits (application: 6, documentation: 15, research: 3).
+- 2026-10-04: 16 commits (application: 6, documentation: 16, research: 4).
 - 2026-10-03: 44 commits (application: 19, documentation: 44, research: 33).
 - 2026-10-02: 57 commits (application: 26, documentation: 53, engine: 4, operations: 6, research: 34).
 - 2026-10-01: 128 commits (application: 53, documentation: 124, operations: 11, research: 110).
@@ -366,6 +366,6 @@ Financial qualification: not established. Current availability is checked on Pro
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 48a27d117dda55c1c8c389a6d3147a9ab04ff3434b6af7d9a8d8ad826f78c72a
+Snapshot SHA-256: d43dbd087a167458d15b41ce8722e188fb786c1a3140f255bfe0572aca9f39e6
 
 Live publication: https://hypernatt.com/audit
