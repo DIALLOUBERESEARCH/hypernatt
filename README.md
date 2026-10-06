@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-10-06T06:16:56Z**.
+Latest committed activity: **2026-10-06T06:41:40Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -30,7 +30,7 @@ Current paper deployment and publication health are shown on Proof of Process.
   <a href="https://hypernatt.com/vault"><img src="https://img.shields.io/badge/HyperEVM-Vault-10b981" alt="HyperNatt Vault" /></a>
   <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Documentation-success" alt="Security documentation" /></a>
   <a href="https://hypernatt.com/audit"><img src="https://img.shields.io/badge/Proof%20of%20Process-SHA--256%20Anchored-8b5cf6" alt="Proof of Process" /></a>
-  <a href="https://github.com/DIALLOUBERESEARCH/hypernatt-terminal"><img src="https://img.shields.io/badge/MCP%20Terminal-v2.9.1-purple" alt="MCP Terminal" /></a>
+  <a href="https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal"><img src="https://img.shields.io/badge/MCP%20Terminal-v2.9.1-purple" alt="MCP Terminal" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License" /></a>
 </p>
 
@@ -117,8 +117,8 @@ does not erase records or settle tax.
 - [Vault permissions and withdrawals](docs/NON_CUSTODIAL_ARCHITECTURE.md)
 - [Security and reporting](SECURITY.md)
 - [Independent verification](docs/VERIFICATION_GUIDE.md)
-- [HyperNatt Terminal](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal)
-- [Public research archive](https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public)
+- [HyperNatt Terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
+- [Public research archive](https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public)
 
 Founded by Hamet Diallo. Documentation and public tooling in this repository
 follow [LICENSE](LICENSE); this does not license the private execution engine.

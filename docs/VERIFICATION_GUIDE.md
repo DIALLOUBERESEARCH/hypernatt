@@ -9,8 +9,8 @@ must not be treated as current evidence.
 
 The same bundle is published at:
 
-- [Product repository](https://github.com/DIALLOUBERESEARCH/hypernatt/blob/main/docs/publication/latest.json)
-- [Audit repository](https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public/blob/main/publication/latest.json)
+- [Product repository](https://github.com/hypernatt/hypernatt/blob/main/docs/publication/latest.json)
+- [Audit repository](https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public/blob/main/publication/latest.json)
 
 Compare the `sha256` values and content. For integrity verification, the digest
 is SHA-256 of the `data` object serialized with sorted keys, ASCII JSON escapes,
@@ -23,7 +23,7 @@ conclusion, an audit result, fund safety or a profitable strategy.
 ## Historical notes
 
 ```bash
-git clone https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public.git
+git clone https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public.git
 cd hypernatt-audit-public
 ```
 
