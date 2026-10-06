@@ -8,9 +8,9 @@ reporting channels. It is not an independent audit certificate.
 - [Application and vault](https://hypernatt.com/vault)
 - [Documentation](https://hypernatt.com/docs)
 - [Proof of Process](https://hypernatt.com/audit)
-- [Product repository](https://github.com/hypernatt/hypernatt)
-- [Audit repository](https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public)
-- [Terminal repository](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
+- [Product repository](https://github.com/DIALLOUBERESEARCH/hypernatt)
+- [Audit repository](https://github.com/DIALLOUBERESEARCH/hypernatt-audit-public)
+- [Terminal repository](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal)
 
 Verify the domain, network, asset, recipient, approval amount and transaction
 details in your wallet. HyperNatt and its support channels do not need your

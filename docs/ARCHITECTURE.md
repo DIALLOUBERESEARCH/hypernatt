@@ -56,7 +56,7 @@ public vault after explicit parameter approval and activation. A separately
 funded staking pool requires its own settlement and claim accounting.
 
 HyperNatt Terminal is a separately maintained public MCP integration. Its
-[repository](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal) describes
+[repository](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal) describes
 its current tools and payment rails. It does not provide custody of vault funds.
 
 The publication process distributes committed, selected evidence to the public
