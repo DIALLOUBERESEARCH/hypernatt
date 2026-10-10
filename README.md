@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-10-09T02:37:37Z**.
+Latest committed activity: **2026-10-09T20:43:27Z**.
 [Activity and research records](docs/publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -23,6 +23,16 @@ Current paper deployment and publication health are shown on Proof of Process.
   <a href="https://hypernatt.com/vault">Vault</a> ·
   <a href="https://hypernatt.com/docs">Documentation</a> ·
   <a href="https://hypernatt.com/audit">Proof of Process</a>
+</p>
+
+<p align="center">
+  <sub>Research and development by</sub><br />
+  <a href="https://github.com/DIALLOUBERESEARCH">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://hypernatt.com/brand/dialloube/logo-horizontal-blanc.svg" />
+      <img src="https://hypernatt.com/brand/dialloube/logo-horizontal-bleu.svg" alt="DIALLOUBE-RESEARCH" height="18" />
+    </picture>
+  </a>
 </p>
 
 <p align="center">
