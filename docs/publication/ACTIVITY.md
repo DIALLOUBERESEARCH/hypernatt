@@ -533,10 +533,11 @@ Checkpoint 962 - 2026-10-08T05:14:18Z
 
 ## Laboratory register
 
-22 journal entries, 24 recorded refutations, 13 preregistrations. Last activity: 2026-10-09.
+26 journal entries, 26 recorded refutations, 17 preregistrations. Last activity: 2026-10-09.
 
 ## Committed activity by UTC day
 
+- 2026-10-10: 29 commits (application: 14, documentation: 27, research: 1).
 - 2026-10-09: 54 commits (application: 12, documentation: 44, engine: 4, operations: 11).
 - 2026-10-08: 7 commits (application: 4, documentation: 4, research: 1).
 - 2026-10-07: 13 commits (application: 12, operations: 3).
@@ -571,6 +572,6 @@ Checkpoint 962 - 2026-10-08T05:14:18Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 2788848a284ee907c0b6443381dcdf4b1df05f1a694686ac32be9b2d37e9b95e
+Snapshot SHA-256: f3c281080e3980c0ab5dcb78721b6449d616d07f1e053cc14f390436f662aa57
 
 Live publication: https://hypernatt.com/audit
