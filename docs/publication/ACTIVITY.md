@@ -12,6 +12,84 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-10-17T20:24:51Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 0d8e8bdbbd7a9d45ba6b18b864a3205fd524fbc85c3256affb258a5dd2b40e71, 0ed326d6034edbbe468ffc2126f5407dc81ee058cbf0c220ce81beabc927dcc4, 3b8584330a875c9b8d3570b3b2615a112f577dbac0feaf0d9b3c4919002d4162, c8cb4eb924cfc34c0266b91c38eaa2843680b5dcf71bb6f622621726363a1449, cfeade26304ee6619c249313e6ceb47f108eb3636a84dc8f657fc78001448a3c, dfee2886d5f3db4a137a90133eb061795189abdf3c63a87d538ebfb4dd96db46, e28df218036a71cbaae9c259f2fd7f26d8ba6560eef32b7e3d08a4789fe94d3d
+- 2026-10-17T19:41:18Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 29468dfee064dab79a36a0da9824c72980e6b535f4f6357b5077f77e931bdd33, 3371a1666c201a23cb0c20aad6c7d128ec66a110e45e4410904cf33634aba68e, 3fb15339d8f58b3684f9387d4ccf93eac0214d6ae342892ef66a96ba15797051, 559de5ae15324053434c2a8a5511128e2b3d5c87d06e1775fd51486b98d22663, 757476301c7a092de28958bf65fff733e86d960ccc1e0d18f2190a1882fcdea2, 7ec2ecfbca8394f194fd2a92d334e3b54dd01c9833fac7a3721af46fb5cc6425, 9fbf9c293d9587b8fdc3f1b85789591fb1fde0d50dec2a5943d9fc96d1ce4e91, ee43ff84369512adfc7b51e95ff510d0dc09f4dd5f0a3c554299800e523e4757
+- 2026-10-17T17:22:18Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 179c7874b8e1da6d7a6aa99e7f4563f49a94ea70355921442f28fc6633f02c95, 832acdbb78f4aa8b2e9fed82a4e0f6e919aa6761ae54173d37c67fc6f684db86, 839b743a57a9566596bcd036be3ebe611d3520e5ade34a8d7d3841580c1839cc, 86e7255924df94984b16d975d1c7711aae252544bb308eb8d806bd9dd63323e3, f9e67a8e317b6750468144560d4165b603e92c742959aa317244cf35803ee41b
+- 2026-10-17T16:20:50Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 1bdb905865179b0f5e404e6b527bc898396492aa756d831c49c9deb28820c0fb, 2fa46eb62a9ae082fcebab511ae1684724bdb5ad728431d2663799b2614b9ac9, 6918b111f160dce76a8feecd8c8cae0e6e8181a652918a2bbd5b9716b4bd1cd8, c85e95b9db6f8edb9f738d0b72885358b6bb4e0cc0c950be3a6f2ebc5f1b0d24
+- 2026-10-17T12:00:38Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 1666fe916fda3ce31dc8de7884190ba753e8da009e2da7aaa6c1ddb838317505, 3cf2a9b1af22ed3673239e0ce192fdcdfd916d23c5926b5c11518eb33a7ef332, 4d2a30d84b9c6d3994fe22c9041eb0056c7c86294cdd64a536119e860da3789b, f89776fb9a2f88c17219e1ecb687e2cf0168854dd0a188de2c6bd26ac348556f
+- 2026-10-17T10:43:11Z - LAB - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 3555da60dba29ea6bd71e13aaec30c902fe0ac8496ed776f323109b2c37160a7, e336781e2de06203695f60f8e287c682d9cf812182c3ac86d592271e5a599162, f03f9d4cc7b871297694a5dc0b71b758a7e6aa400c2b49484e074e5a142354b8
+- 2026-10-17T10:12:32Z - LAB - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 3555da60dba29ea6bd71e13aaec30c902fe0ac8496ed776f323109b2c37160a7, 68f725281860961517df7c998a7c446fa05e5d3c4d0b7901d5102fecd52efcfa, f03f9d4cc7b871297694a5dc0b71b758a7e6aa400c2b49484e074e5a142354b8
+- 2026-10-17T09:51:07Z - LAB - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 3555da60dba29ea6bd71e13aaec30c902fe0ac8496ed776f323109b2c37160a7, 744d89adfd551472c713bd35ebb764f35d3cb9ad6735816c1c89e0e3320baad9, f03f9d4cc7b871297694a5dc0b71b758a7e6aa400c2b49484e074e5a142354b8
+- 2026-10-17T08:54:11Z - LAB - Reproducible replay bench: Checks incomplete; no promotion.
+  Evidence SHA-256: 8ec6dcaea0b21e177322c22d569305517e4748d9b170abb973f58c139524c9fc, ea4813b0d1e85cf5f56fdb2ec8811afe85003882c9f743d8d9724ea6ad901a21
+- 2026-10-17T05:06:50Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 3529b1241c30a5dd76ca4d39b5b2b16262978dd1a51d476ddc9470bd4ad41675, 3cde8ba6567d3828c5b5911e707dd45510f0ef351b4c3985d66b9f0c28e4b3a2
+- 2026-10-17T04:08:14Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 9c254eea262a010899c4a1fed1e8b7471728edd2858c4d68d2f769cf30960a8b, a7c9d669ceac704d9f1b042fd94bea1f4b7a7f3880892308562a251cb3789f7e
+- 2026-10-17T02:54:58Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 5190f2e46b81cc6f1c7385fadb6555a6c188217fa300c73ec7649f369dd2a0a0, 9caf60b6502d69fad30f58ecc51b2d6c02c27812b5fd89063ccef648ad262e60
+- 2026-10-17T00:32:58Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 29e6350280fec0f9229d03dda775f180509a036c661685bacfd731f49cde318d, 808331ffc231192b99557e2828d522367b02a2c9bb031f23e78004af0cb87459
+- 2026-10-16T19:17:20Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 0943274abed8c2cfb7026dc6b1ec5e959359bd68b3221ed1a57f40d3c4b250aa, 6f0dbe7a5660c8cd8bf5498ff9392f52c060e24e8eed759915a9a349ae7edf65, 8a02358133126133cb4185a4255f3ce35ea90dcd6518ea3f03996fbdd5e1f4ab, 8a6e8cf2dc9217c38bf48850444ab86d597c97624c43de0d3ed516e80212fa96, aa43cba87a7caef6d9d75f4399fcb61ce9197f5a1e3eb63be86da44396aeb324, ebe1730361f3e2fed7222daa9cb389eb5c0a80b8caec548662b7bd1eb13c798a
+- 2026-10-16T18:14:21Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: a4c324dee85f254a262b60b731a21e2067da6e2c749b5713d1c01d0a81414dbe, bffcbaaa3fca85cd62a138fff6490bdc739e9faf6d05bab214c1f1663fe5e01c
+- 2026-10-16T17:20:54Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 28dbac3c6b8257eaa9cec8757eb3e359359c992673af1b32db459c1a503c38e9, 2db0ce8223b3f2bf965b0f5bf716834fc8967f568e4c22e3759d7a3eb241dd1a
+- 2026-10-16T16:46:25Z - LAB - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 6a524b7dc2b804d4d198518801dc3050e060c0379e307a48ff3a744c9657c762, 8eb1d02229a6bd1138db44d96b94a7fdd8b5da1ee16cfb45296009616b3b1230
+- 2026-10-16T15:57:18Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 6831c1006447460c2e96c4ced46e8419f357c396e3c5e415ac2456c730f7a7fa, 737f1777ae305a1d5c522a5f51521b2e54f8bb8240d9e0fcfa58261238c3865a
+- 2026-10-16T15:17:56Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 427fd365c286931107e377bf1fea31c063b3db965f55a77df42830d34f0464ce, a3385f4192a4ebb1408bd1adc8104fb5351a0370dbfe035b4a51b9b68959cb20
+- 2026-10-16T14:28:50Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 082d4681e47facfe3929327f95d11d6039989d9203e6226529d63cf9382cf6bc, 0e1b9ef83dd8b52a63f2fd3de0b7f568d5d577f9f8d4bf109a1ce81ab0a07e58, 25a3820424c0fd341b7acf402bd48b2aa92cfc6647ee4299aa0d79cdbe33a238, 5011f0aef30448c15752c8b02e3ef3498344ed5c1a422ef235cbc54cd4cf0cc4, 832f91289335c797d6a403c272324335dbd72fe369887907ca83167ee6a260bd, c6c1c740dd50389ee9dd4ab935734b21fa248b7140a9ac870cece1493bf269c1
+- 2026-10-16T10:40:41Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 0f73e3182e380f9f2d8aff89b6d257f770a3daf45eab378f15dda209c946eb75, f9de997fb846f2c46c904dcab8ffab7ebd8aa7aa4ed8931e30f010c82772a775
+- 2026-10-16T09:52:10Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 69714ae8326b236ec6a942b21ae6405eda5286237f1dc53c57022276eab1b6ec, caff453752dd78540d7bdef74edfb59a66e8e04a5e47d236477494dbf9f22d2b
+- 2026-10-16T09:20:06Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 3e634be2fde76a990a6958b2370a3b0d7f97acec4496101b2c849caf3f80b6dd, 6f82a048ed8c742d1f87580cd795b5f4c938b0446fc62a67ea1da01307d4e292, dabce27dd08dbc958bae6e81600a9fb15770b04c69c8072d957036503a260ce4
+- 2026-10-16T08:04:44Z - LAB - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 053aca955d9be87401fac8a73ac698c64e7e08f3b06c72bd827efa7faed3cae4, 27a215fdc82194e041c6fc130892dd21ca5acb4877a9c59d4372350c03cefd44, 6bfaf979c05c14bbe27d3683dfacb10cc2d65b7f045e07b038b81d97cd76ad9b, cc61645cdc443c1d65d57af143ea7c90de8e6b04871361cceef2ce8804cfe7ae
+- 2026-10-16T07:21:53Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 5817d3854c25934358b3e7d23b241cad79a93625661e459952e318b59a96f313, 5df82375bff6ffc855dac28a422ac2b4b73d633b5c8ff1ce4d47ee21c22ab558, babd45ab0a5425d8fb9f057aa2ce32b7e739fb39468bdf010d10a8dcb33642f4
+- 2026-10-16T07:00:08Z - LAB - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: 3b97e6e5c3ad3914197aec0451193708568cdc46f1ab076a805ca2f895699e83, 45d21547d126052b590d10c86916763e5380bf87bce05684a12d3159817e0b42, 9fd0058a67c3d48071769c4076a730a95ae98033ba29dc7723fd7d85fc8bea1b, e2c4bab13a15902f4ac6a2755697a73eff970a6ddec50fb020128c093805ba57
+- 2026-10-16T05:57:26Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 37130a2290dab77e89011d3c539e612c573ec35bef4b1e618954219febd01fab, 9642b75c924531c4f150347b23233120b460724bcc31a06c6a9a0dbe661774a5, b676f0eb0f8c44cf1ec01bc43ac0737f442fa2e2c6d0ee5efa16dd3584ec442d, d98aa7ed06e48fc889df58edd6361bfa9503f1efccb2d257b72c61ac134818bb, f7f28a1a7bcb3510094ff79a98822dbcb8880ba6a82902b9a5e76d8b18a3e131
+- 2026-10-16T05:36:15Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 0183a24ef85954f32b59912b403d548214eca59ff53de45c2883c8012f132f34, 3ca0c4522bd711a82b5d5785837207b27f41e1b4da1090e90fd0ef6f6fd300aa, 4500fb016f60e024717e57d7ca607ed87ff59157b4d53a62a61eccafc0d08e05, 5ec18f62a453be1ea9c0173be8bfd0fa2e351ad93758556890f3898afc24d02b, e5075c7ebcc09af0791d514063bacb43fc233ea46383e61960dfba3b1b8da736
+- 2026-10-16T04:37:22Z - LAB - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 2239f6a55e00181b2247a79f01af7c03b4b26b4c8820f093cd86ce4d7e00aa66, 9a1e2471224d0ccdacab8da8b944f101fd9e06510d1b575dd752181f9ea30e2a, d0271466f028aa7ef63a2f61234d53abb71ef808763ada840f5be29a0bea567d, e31d1357111037f7c4e03b2de22a7d7830841825b4ac94c90acd347b7c992423
+- 2026-10-16T04:37:22Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 364d7513c2affe28a97e3e8e5fdf3d9fb4682f7a2758286b9c71af5f16909eb1, 6bb3c7b643659d4f44eba4784c1b9d9da6d8db0519a8ca954540e1c69de6c9c2, e0cd5fd5bbe0ab7ac03fc10198fadb948f178d5ab373ca1d097ad8cebdfb6a64
+- 2026-10-16T04:17:17Z - LAB - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 54d80ecc328392253fdc67d7e97fbe7639292c8b31ef6e75e5a8fe3c45116ec7, 8dd656770fa3b94d7038bb753248cb9cd8a6633131a2b0386555139a06719262, 9c9f76e529d6c677b9c94aa056f167d5eccf814ba167600be3ebeae37630201f, a57afd7a7c39a909d1b2a30dfca7b9d84aa2c8fe804045e2aff0ab584a8e45c4, c630472ff51673aa48556781153f21c3897191478a28136a4aed2af062c1b0df, d27c5a49278512e4f5f0d2eaf971485ba59ed1b561ec490c11549724460cac69, f6a51acc6d033253ed6699c0c2168e461785d0ad871b8fb9690761b28105c151
+- 2026-10-16T03:22:14Z - LAB - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 3d692653de8b5b39ad53a846d1ce1eb682bbd578f85b1d07ccc6367a340bc2d1, 8e82a2c91d470145d0a2dfc0fd8405746c4ba169a7b47b7717de370a1b29850f, fa71fc229fb97a3048443449e5d3d7082ee1ab897bbfd588f055499df4a6c56e
+- 2026-10-16T03:03:15Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 07295482edf4eb5dd1e62ea610a68097b4293f04cddbd0709cd4af08a468d2d4, 4acb71a9c1c1fd1775ea29e25c649629dcb09b9fea3139a3e28a2177ffac750a, c1c3e80ca1f4a3d997b9980c3042d264b284f26ce88ddb53340b90ef6f2cc610, d8a05a6a42effc7b353224ddb3a5af78acb10964ea3ddb1d2cddee48ca7f2133, dade4528456b801edc1a58086618dec855fc3e913b1f06fd0e6554718f601361
+- 2026-10-16T00:50:54Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 232414faeba98f69410cd06d8241fdb2f8f321de439b806b596290e1eb12884f, 24a72d5bfa228e2b57f95e675a704464c37c355041786971205fc612cf9a24bc, 8ff8df2d5ac625ad88a560b6d6e13a9d1521722173bbc85b78c174bbd4d518ff
+- 2026-10-16T00:33:34Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 65c270f2f72fd5d86e166c9d041ed2334ba480f1a6c47d2e11ce063de02ed86e, 7a7d86b601cee0cd535ea65594036cad2ff3480bd3864210efc32afc0a6aae8b, e06b7fb2d3b03d7d21f4b61cedd1fd7c8ab830e67bdb0c12efd4dfe4cc66514e
+- 2026-10-15T23:45:52Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 5b3eaea9b194005888c057cf8636573774678921de200ea0f59cea2f1a45e485
+- 2026-10-15T23:11:29Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 5b88642d248ab043b83d629697127c046b130be22b99a260d96a42204ffd29ce
+- 2026-10-15T22:46:28Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 8cceab3430811e2e7d3994744fb11892d285e6abaa32e81d1f31376d9f705c24
+- 2026-10-15T22:09:15Z - LAB - Reproducible replay bench: Recorded technical checks passed.
+  Evidence SHA-256: a977920112e1b099261cc6ff61b43ee78d1cad80798a6c43db398c7203097797
 - 2026-10-06T04:31:31Z - F354 - Application development: Checks incomplete; no promotion.
   Evidence SHA-256: edd1a1f246de3263a206ca43a63a4c0f383cfdfa145fc1117725607ea5aec1d0
 - 2026-10-05T07:19:25Z - F354 - Application development: Checks incomplete; no promotion.
@@ -529,17 +607,19 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research checkpoint
 
-Checkpoint 991 - 2026-10-16T08:00:00Z
+Checkpoint 1014 - 2026-10-17T20:36:00Z
 
 ## Laboratory register
 
-28 journal entries, 75 recorded refutations, 61 preregistrations. Last activity: 2026-10-16.
+29 journal entries, 75 recorded refutations, 74 preregistrations. Last activity: 2026-10-17.
 
-24 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
+37 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
 
 ## Committed activity by UTC day
 
-- 2026-10-15: 6 commits (application: 1, documentation: 6, operations: 1).
+- 2026-10-17: 57 commits (application: 1, documentation: 36, engine: 13, operations: 3, research: 44).
+- 2026-10-16: 69 commits (documentation: 40, engine: 9, research: 65).
+- 2026-10-15: 20 commits (application: 1, documentation: 16, operations: 1, research: 12).
 - 2026-10-13: 3 commits (application: 2, documentation: 2, operations: 1).
 - 2026-10-12: 5 commits (application: 2, documentation: 5).
 - 2026-10-11: 32 commits (application: 20, documentation: 28, operations: 1).
@@ -578,6 +658,6 @@ Checkpoint 991 - 2026-10-16T08:00:00Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: e10e929b8f785c35b9e6c90845d41a5ca2860246b4ab20004b1756037c3fabdd
+Snapshot SHA-256: 56bcbdcacb003eeac7f7d21ef5fa6e7cc5a6d4727bed424c05490452f0fc1260
 
 Live publication: https://hypernatt.com/audit
