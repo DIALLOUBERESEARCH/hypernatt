@@ -12,6 +12,14 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-10-18T20:06:42Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 16bc07e70d0ea4bac5bf2fa406ccdd17986ca4af84801b61f34f56c9b56a2974
+- 2026-10-18T15:07:28Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: f1db0ce45d24d4c0c914c83e4231698ee87789b8e394337c49bb3d2678bb66ae
+- 2026-10-18T11:27:16Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: f13903c0e02e9002173fba2c0b426a53715935a9be361d2a75afd74aab331056
+- 2026-10-18T00:59:23Z - LAB - Reproducible replay bench: Evidence inconclusive.
+  Evidence SHA-256: 24bd93911cdf529c741da9b67cfd65d0d7f1bc366ffd8cf450c3d6eef9c254de, bc6ebef7ee5671e3bccc5b57348924582e06bd1e2b0337687293dfb89e450027, d08edb248b5da7490c3e324d2ce96007c91ff3c3dbc5996e06fb7edafef720f1
 - 2026-10-17T20:24:51Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
   Evidence SHA-256: 0d8e8bdbbd7a9d45ba6b18b864a3205fd524fbc85c3256affb258a5dd2b40e71, 0ed326d6034edbbe468ffc2126f5407dc81ee058cbf0c220ce81beabc927dcc4, 3b8584330a875c9b8d3570b3b2615a112f577dbac0feaf0d9b3c4919002d4162, c8cb4eb924cfc34c0266b91c38eaa2843680b5dcf71bb6f622621726363a1449, cfeade26304ee6619c249313e6ceb47f108eb3636a84dc8f657fc78001448a3c, dfee2886d5f3db4a137a90133eb061795189abdf3c63a87d538ebfb4dd96db46, e28df218036a71cbaae9c259f2fd7f26d8ba6560eef32b7e3d08a4789fe94d3d
 - 2026-10-17T19:41:18Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
@@ -607,16 +615,17 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research checkpoint
 
-Checkpoint 1014 - 2026-10-17T20:36:00Z
+Checkpoint 1020 - 2026-10-18T23:12:11Z
 
 ## Laboratory register
 
-29 journal entries, 75 recorded refutations, 74 preregistrations. Last activity: 2026-10-17.
+31 journal entries, 75 recorded refutations, 79 preregistrations. Last activity: 2026-10-19.
 
-37 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
+42 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
 
 ## Committed activity by UTC day
 
+- 2026-10-18: 21 commits (documentation: 16, engine: 6, research: 21).
 - 2026-10-17: 57 commits (application: 1, documentation: 36, engine: 13, operations: 3, research: 44).
 - 2026-10-16: 69 commits (documentation: 40, engine: 9, research: 65).
 - 2026-10-15: 20 commits (application: 1, documentation: 16, operations: 1, research: 12).
@@ -658,6 +667,6 @@ Checkpoint 1014 - 2026-10-17T20:36:00Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 56bcbdcacb003eeac7f7d21ef5fa6e7cc5a6d4727bed424c05490452f0fc1260
+Snapshot SHA-256: 89f70edec0a360a1849c95fba2d7e360db725ed78556601487d30214bdcbab52
 
 Live publication: https://hypernatt.com/audit
