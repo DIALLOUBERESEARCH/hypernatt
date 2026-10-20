@@ -12,6 +12,12 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research records
 
+- 2026-10-19T10:34:13Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: b484b1ad5066f07905db3023dabe1db5fea90875bb7fc7d0efc4706f204e6dfb
+- 2026-10-19T07:51:26Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 3861ca7f02f7fdb01f0427196ff11c795a1e510ca4df3f3c047869fb7c1451e7
+- 2026-10-19T06:31:57Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
+  Evidence SHA-256: 3d79cb936b3067b4f1d18bcaff2c440d2604281f9f89c0325dcbb6a3da893054
 - 2026-10-18T20:06:42Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
   Evidence SHA-256: 16bc07e70d0ea4bac5bf2fa406ccdd17986ca4af84801b61f34f56c9b56a2974
 - 2026-10-18T15:07:28Z - LAB - Reproducible replay bench: Hypothesis rejected on examined development data.
@@ -615,16 +621,17 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research checkpoint
 
-Checkpoint 1020 - 2026-10-18T23:12:11Z
+Checkpoint 1028 - 2026-10-19T22:06:34Z
 
 ## Laboratory register
 
-31 journal entries, 75 recorded refutations, 79 preregistrations. Last activity: 2026-10-19.
+31 journal entries, 75 recorded refutations, 89 preregistrations. Last activity: 2026-10-19.
 
-42 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
+52 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
 
 ## Committed activity by UTC day
 
+- 2026-10-19: 42 commits (documentation: 23, engine: 8, operations: 1, research: 40).
 - 2026-10-18: 21 commits (documentation: 16, engine: 6, research: 21).
 - 2026-10-17: 57 commits (application: 1, documentation: 36, engine: 13, operations: 3, research: 44).
 - 2026-10-16: 69 commits (documentation: 40, engine: 9, research: 65).
@@ -667,6 +674,6 @@ Checkpoint 1020 - 2026-10-18T23:12:11Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 89f70edec0a360a1849c95fba2d7e360db725ed78556601487d30214bdcbab52
+Snapshot SHA-256: 7d651ac00f6681e2aaed98e4ff9c5d395b480db4f7a748da60e163f7dd4a56d1
 
 Live publication: https://hypernatt.com/audit
