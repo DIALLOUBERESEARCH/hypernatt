@@ -621,16 +621,17 @@ Financial qualification: not established. Current availability is checked on Pro
 
 ## Research checkpoint
 
-Checkpoint 1083 - 2026-11-09T23:50:57Z
+Checkpoint 1086 - 2026-11-10T16:38:15Z
 
 ## Laboratory register
 
-48 journal entries, 75 recorded refutations, 151 preregistrations. Last activity: 2026-11-10.
+48 journal entries, 75 recorded refutations, 152 preregistrations. Last activity: 2026-11-10.
 
-114 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
+115 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
 
 ## Committed activity by UTC day
 
+- 2026-11-10: 43 commits (application: 14, documentation: 16, operations: 8, research: 27).
 - 2026-11-09: 8 commits (documentation: 4, research: 7).
 - 2026-11-05: 5 commits (documentation: 3, research: 4).
 - 2026-11-04: 7 commits (documentation: 5, research: 6).
@@ -692,6 +693,6 @@ Checkpoint 1083 - 2026-11-09T23:50:57Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 165fd6c9d510042904664dac581e615ea6b7ffa3a3d5f9d57693be06cd845650
+Snapshot SHA-256: 42920758618066ed3fbabddb7b688603ef551586088ef3c1b2cd454c7f019d97
 
 Live publication: https://hypernatt.com/audit
