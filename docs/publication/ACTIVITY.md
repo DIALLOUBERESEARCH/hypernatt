@@ -625,12 +625,13 @@ Checkpoint 1086 - 2026-11-10T16:38:15Z
 
 ## Laboratory register
 
-48 journal entries, 75 recorded refutations, 152 preregistrations. Last activity: 2026-11-10.
+48 journal entries, 75 recorded refutations, 153 preregistrations. Last activity: 2026-11-10.
 
-115 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
+116 preregistration fingerprints (SHA-256) are part of this anchored snapshot.
 
 ## Committed activity by UTC day
 
+- 2026-11-11: 46 commits (application: 27, documentation: 23, engine: 2, operations: 10, research: 4).
 - 2026-11-10: 43 commits (application: 14, documentation: 16, operations: 8, research: 27).
 - 2026-11-09: 8 commits (documentation: 4, research: 7).
 - 2026-11-05: 5 commits (documentation: 3, research: 4).
@@ -693,6 +694,6 @@ Checkpoint 1086 - 2026-11-10T16:38:15Z
 
 One commit may touch multiple domains. Merge commits are excluded.
 
-Snapshot SHA-256: 42920758618066ed3fbabddb7b688603ef551586088ef3c1b2cd454c7f019d97
+Snapshot SHA-256: 04f86f9438a67e0322b4f83148ca3fb0124f5a105b9b53b4690e7eb3b25846ae
 
 Live publication: https://hypernatt.com/audit
